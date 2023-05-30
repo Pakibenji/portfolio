@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "worksans", sans-serif;
+    src: url("../assets/fonts/WorkSans-Medium.ttf");
+}
+
+$font: "worksans", sans-serif;
+
+$background :#FFFFF5;
+$grey :#dfdfdf;
+$primary :#000000;
+$secondary :#79e2ff;
+$tertiary : #ff7f50;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: $font;
+    background-color: $background;
+    color: $primary;
+}

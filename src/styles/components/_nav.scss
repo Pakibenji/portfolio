@@ -1,0 +1,49 @@
+.nav-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 0 20rem 0 0 ;
+    height: 2rem;
+    border-bottom: 5px solid #000000;
+    & p {
+        font-size: 1.1rem;
+        font-weight: 950;
+        transition: all 0.3s ease-in-out;
+    }
+    & p:hover {
+        color : $secondary;
+        background-color: $primary;
+        border-radius: 0.5rem ;
+        padding: 0.5rem;
+        cursor: pointer;
+    }
+    & .formation {
+        margin-right: 15rem;
+    }
+    // Responsive
+    @media screen and (min-width: 1440px) {
+        padding: 0 15rem 0 0 ;
+        & .formation {
+            margin-right: 15rem;
+        }
+    }
+    @media screen and (max-width: 1024px) {
+        padding: 0 10rem 0 0 ;
+        & .formation {
+            margin-right: 10rem;
+        }
+    }  
+    @media screen and (max-width: 768px) {
+        padding: 0 5rem 0 0 ;
+        & .formation {
+            margin-right: 5rem;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        padding: 0 6rem 0 0 ;
+        & .formation {
+            margin-right: 2rem;
+        }
+    }
+    
+}

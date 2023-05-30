@@ -1,0 +1,168 @@
+.formation-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    & .thp-logo {
+        width: 15%;
+        height: 15%;
+        margin: 15px 15px;
+    }
+    & .titles {
+        & h1 {
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 1000;
+            margin: 10px 0 0 20px ;
+        }
+        & h2 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            text-align: center;
+            margin: 0 0 0 20px ;
+        }
+        & h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        & h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            text-align: center;
+        }
+    }
+    & .title {
+        font-size: 1.4rem;
+        font-weight: 800;
+        margin : 20px 0 0 10px;
+    }
+    & .fullstack-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background : $grey;
+        color: $primary ;
+        width: 100%;
+        margin: 50px 20px 0px 20px ;
+        padding-bottom: 20px ;
+        border-radius: 10px 10px 0px 0px;
+        border-top: 2px solid $primary ;
+        border-left: 2px solid $primary ;
+        border-right: 2px solid $primary ;
+        
+        & .fullstack-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+            margin: 20px 0 20px 0;
+        }
+        & ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+            & li {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        & .trox-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+            margin: 20px 0 20px 0;
+        }
+        & .trox-infos {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        } 
+    }
+    
+
+    & .developpeur-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background : $grey;
+        color: $primary ;
+        width: 100%;
+        margin: 0 20px 0px 20px ;
+        padding-bottom: 20px ;
+        border-left: 2px solid $primary ;
+        border-right: 2px solid $primary ;
+        & .developpeur-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+            margin: 20px 0 20px 0;
+            }
+        & ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0;
+            list-style: none;
+            & li {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        & .soundspectrum-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+            margin: 20px 0 20px 0;
+        }
+        & .soundspectrum-infos {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 0 0 0 15px;
+            }
+    }
+    
+    & .stage-container {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            background : $grey;
+            border-radius: 0 0 10px 10px;
+            border-bottom: 2px solid $primary ;
+            border-left: 2px solid $primary ;
+            border-right: 2px solid $primary ;
+            color: $primary ;
+            width: 100%;
+            margin: 0px 20px 0px 20px ;
+            padding-bottom: 20px ;
+            & .active {
+                margin : 10px 0 0 20px;
+            }
+    & .stage-title {
+                font-size: 1.2rem;
+                font-weight: 600;
+                text-align: center;
+                margin: 20px 0 20px 0;
+        }
+    }
+        
+    
+}
