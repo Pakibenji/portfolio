@@ -1,0 +1,18 @@
+.footer-container {
+display: flex;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+padding: 0 20rem 0 0 ;
+height: 2rem;
+border-top: 5px solid #000000;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    & p{
+font-size: 1rem;
+font-weight: 800;
+margin-left: 300px;
+    }
+}

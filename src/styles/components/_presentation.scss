@@ -1,0 +1,42 @@
+.presentation-container {
+    background: $primary;
+    color: $background;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: up 2s cubic-bezier(0.9, 0, 0.42, 0.43) forwards;
+    & h1 {
+        font-size: 10rem;
+        font-weight: 1000;
+        letter-spacing: 0.5rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+    & h2 {
+        font-size: 5rem;
+        font-weight: 900;
+        letter-spacing: 0.5rem;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 0 0;
+        padding: 0;
+    }
+    @keyframes up {
+        0% {
+            transform: translateY(0);
+        }
+        100% {
+            transform: translateY(-100vh);
+        }
+    }
+        
+}

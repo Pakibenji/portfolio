@@ -44,12 +44,9 @@
         background : $grey;
         color: $primary ;
         width: 100%;
-        margin: 50px 20px 0px 20px ;
+        margin: 35px 20px 0px 20px ;
         padding-bottom: 20px ;
-        border-radius: 10px 10px 0px 0px;
-        border-top: 2px solid $primary ;
-        border-left: 2px solid $primary ;
-        border-right: 2px solid $primary ;
+        box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
         
         & .fullstack-title {
             font-size: 1.2rem;
@@ -86,10 +83,9 @@
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
+            margin: 0 0 0 15px;
         } 
     }
-    
-
     & .developpeur-container {
         display: flex;
         flex-direction: column;
@@ -97,10 +93,9 @@
         background : $grey;
         color: $primary ;
         width: 100%;
-        margin: 0 20px 0px 20px ;
+        margin: 20px 20px 0px 20px ;
         padding-bottom: 20px ;
-        border-left: 2px solid $primary ;
-        border-right: 2px solid $primary ;
+        box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
         & .developpeur-title {
             font-size: 1.2rem;
             font-weight: 600;
@@ -145,14 +140,11 @@
             flex-direction: column;
             flex-wrap: wrap;
             background : $grey;
-            border-radius: 0 0 10px 10px;
-            border-bottom: 2px solid $primary ;
-            border-left: 2px solid $primary ;
-            border-right: 2px solid $primary ;
             color: $primary ;
             width: 100%;
-            margin: 0px 20px 0px 20px ;
-            padding-bottom: 20px ;
+            margin: 20px 20px 0px 20px ;
+            padding-bottom: 20px;
+            box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
             & .active {
                 margin : 10px 0 0 20px;
             }

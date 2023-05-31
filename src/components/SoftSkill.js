@@ -3,8 +3,16 @@ import React from "react";
 const SoftSkill = () => {
   return (
     <div className="softskill-container">
-      <h1>A propos de moi</h1>
-      <img src="../assets/img/benjamin.jpg" alt="benjamin alcade" />
+      <img
+        src="../assets/img/benjamin.jpg"
+        alt="benjamin alcade"
+        className="photo-benjamin"
+      />
+      <div className="titles">
+        <h1>A propos de moi</h1>
+        <h2>19/11/1991</h2>
+        <h3> Lyon, France </h3>
+      </div>
       <p>
         Je suis Benjamin Alcade, développeur web junior. <br />
         Menuisier de formation, j'ai ensuite travaillé pendant plusieurs années

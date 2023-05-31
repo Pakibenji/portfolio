@@ -57,7 +57,7 @@ const Formation = () => {
           <li>VERCEL</li>
           <li>NETLIFY</li>
         </ul>
-        <h3 className="soundspectrum-title">SOUND Spectrum</h3>
+        <h3 className="soundspectrum-title">SOUND SPECTRUM</h3>
         <p className="soundspectrum-infos">
           Projet de fin de formation en binome. Création d'une application web
           de streaming de radio en fonction des genres musicaux préferés de
