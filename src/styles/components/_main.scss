@@ -20,153 +20,23 @@
             background-color: $primary;
             border-radius: 0.5rem ;
             padding: 0.5rem;
-
         }
     }
     & .title {
         align-items: left;
         padding-bottom: 0.2rem ;
         text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) ;
-
         & h1 {
             font-size: 4rem;
             font-weight: 1000;
         }
-
         & h2 {
             font-size: 3rem;
             font-weight: 600;
             text-decoration: underline;
             text-underline-offset: 5px ;
-            animation:  1s infinite;
         }
-    }
-    // responsive
-    //responsive for all standard screen
-    @media screen and (max-width: 1440px) {
-        padding: 3rem 0 3rem 5rem;
-        & .title {
-            align-items: left;
-            padding-bottom: 0.2rem ;
-    
-            & h1 {
-                font-size: 3rem;
-                font-weight: 1000;
-            }
-    
-            & h2 {
-                font-size: 2rem;
-                font-weight: 600;
-            }
-        }
-    }
-    //responsive for all tablet screen
-    @media screen and (max-width: 1024px) {
-        padding: 3rem 0 3rem 3rem;
-        & .title {
-            align-items: left;
-            padding-bottom: 0.2rem ;
-    
-            & h1 {
-                font-size: 2rem;
-                font-weight: 1000;
-            }
-    
-            & h2 {
-                font-size: 1.5rem;
-                font-weight: 600;
-            }
-        }
-    }
-    //responsive for all mobile screen
-    @media screen and (max-width: 768px) {
-        padding: 3rem 0 3rem 1rem;
-        & .title {
-            align-items: center;
-            padding-bottom: 0.2rem ;
-    
-            & h1 {
-                font-size: 1.5rem;
-                font-weight: 1000;
-            }
-    
-            & h2 {
-                font-size: 1rem;
-                font-weight: 600;
-            }
-        }
-    }
-    //responsive for all small mobile screen
-    @media screen and (max-width: 480px) {
-        padding: 3rem 0 3rem 0rem;
-        & .title {
-            align-items: left;
-            padding-bottom: 0.2rem ;
-    
-            & h1 {
-                font-size: 1.5rem;
-                font-weight: 1000;
-            }
-    
-            & h2 {
-                font-size: 1rem;
-                font-weight: 600;
-            }
-        }
-        & .sociaux {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            & a {
-                scale: 0.9;
-                color: $primary;
-                transition: all 0.3s ease-in-out;
-            }
-            & a:hover{
-                scale: 1.1;
-                color : $secondary;
-                background-color: $primary;
-                border-radius: 0.5rem ;
-                padding: 0.5rem;
-    
-            }
-        }
-    }
-    // responsive for max width 360px
-    @media screen and (max-width: 360px) {
-        padding: 3rem 0 3rem 0rem;
-        & .title {
-            align-items: left;
-            padding-bottom: 0.2rem ;
-    
-            & h1 {
-                font-size: 1.4rem;
-                font-weight: 1000;
-            }
-    
-            & h2 {
-                font-size: 1rem;
-                font-weight: 600;
-            }
-        }
-        & .sociaux {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            & a {
-                scale: 0.9;
-                color: $primary;
-                transition: all 0.3s ease-in-out;
-            }
-            & a:hover{
-                scale: 1.1;
-                color : $secondary;
-                background-color: $primary;
-                border-radius: 0.5rem ;
-                padding: 0.5rem;
-    
-            }
-        }
+        
     }
 }
 
@@ -186,21 +56,6 @@
     color: $primary;
     &.active {
         transform: translate(-100%, 0);
-    }
-    //formation pop up responsive for smartphone the active class has translate from top to bottom
-    @media screen and (max-width: 480px) {
-        top: 0;
-        left: 0;
-        width: fit-content;
-        height: fit-content;
-        transform: translate(0, -100%);
-        & 
-        &.active {
-            transform: translate(0, 50%);
-        }
-        &.inactive {
-            transform: translate(0, -100%);
-        }
     }
 }
 
