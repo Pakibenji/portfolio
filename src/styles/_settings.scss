@@ -3,11 +3,17 @@
     src: url("../assets/fonts/WorkSans-Medium.ttf");
 }
 
+@font-face {
+    font-family: "alumni";
+    src: url("../assets/fonts/AlumniSans-VariableFont_wght.ttf");
+}
+
 $font: "worksans", sans-serif;
+$font2: "alumni", sans-serif;
 
 $background :#FFFFF5;
 $grey :linear-gradient(to top, #000000, #434343);
-$project1background :linear-gradient(to right, #bdc3c7, #2c3e50);
+$project1background: #000000;
 $primary :#000000;
 $secondary :#58dbff;
 $tertiary : #50ffdfb4;

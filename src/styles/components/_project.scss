@@ -1,15 +1,23 @@
 .project-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     border: 5px solid #000000;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    width: 80vw;
-    height: 50vh;
-    background:$project1background;
+    box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.8);
+    flex-wrap: wrap;
+    width: 70vw;
+    height: 55vh;
+    background:black;
+    color: $secondary;
+    align-items: center;
+    font-family: $font2;
+    letter-spacing: 0.2rem;
     & .img-container {
-        width: 50%;
+        display: flex; 
+        align-items: center;
+        width: 45%;
         height: 100%;
         margin: 15px;
+        
         & img {
             width: 100%;
             object-fit: cover;
@@ -19,24 +27,111 @@
         display: flex;
         width: 50%;
         height: 20% ;
+        flex-wrap: wrap;
         flex-direction: column;
         text-align: center;
-        color: $background;
         margin: 15px;
-        border-bottom: 2px solid $background;
+        border-bottom: 2px solid $secondary;
         & h2 {
             font-size: 1.8rem;
             font-weight: bold;
             margin: 10px 0 0 0;
-            letter-spacing: 0.1rem;
+            letter-spacing: 0.3rem;
             
         }
         & h3 {
             font-size: 1.2rem;
             font-weight: 600;
             margin: 10px 0 0 0;
-            letter-spacing: 0.1rem;
+            letter-spacing: 0.2rem;
+            
         }
     }
-
+    & .project-description {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        flex-direction: column;
+        text-align: center;
+        & p {
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 0.2rem;
+        }
+    }
+    & .project-technos {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 50%;
+        margin-top: 10px ;
+        text-align: center;
+        & h4 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+        }
+        & ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            & li {
+                font-size: 1rem;
+                font-weight: 500;
+                letter-spacing: 0.1rem;
+                margin: 0 10px;
+            }
+        }
+    }
+    & .project-Api {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 50%;
+        margin-top: 10px ;
+        text-align: center;
+        & h4 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            letter-spacing: 0.1rem;
+        }
+        & ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            & li {
+                font-size: 1rem;
+                font-weight: 500;
+                letter-spacing: 0.1rem;
+                margin: 0 10px;
+            }
+        }
+    }
+    & .project-link {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 50%;
+        margin-top: 50px ;
+        text-align: center;
+        justify-content: center;
+        & a {
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 0.1rem;
+            text-decoration: none;
+            color: $secondary;
+            &:hover {
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
 }

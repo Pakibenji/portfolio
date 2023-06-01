@@ -4,23 +4,24 @@ import React from "react";
 const Project2 = () => {
   return (
     <div className="project-container">
-      <img src="./assets/img/soundspectrum.png" alt="soundspectrum" />
-      <div className="project-infos">
-        <div className="project-title">
-          <h2>Sound Spectrum</h2>
-          <h3>
-            Application de lecture de radio en ligne, avec filtre par genre
-          </h3>
-        </div>
+      <div className="img-container">
+        <img src="./assets/img/soundspectrum.png" alt="soundspectrum" />
+      </div>
+      <div className="project-title">
+        <h2>Sound Spectrum</h2>
+        <h3>Application de lecture de radio en ligne, avec filtre par genre</h3>
+      </div>
+      <div className="project-description">
         <p>
           Ce projet consiste à créer une plateforme conviviale où les
-          utilisateurs peuvent s'inscrire, se connecter, filtrer les radios par
-          genre musical, les ajouter en favoris, le tout grâce à une API Rails
-          et l'API radio-browser, avec une interface réactive développée en
-          React.
+          utilisateurs peuvent s'inscrire,filtrer les radios par genre musical,
+          les ajouter en favoris, le tout grâce à une API Rails et l'API
+          radio-browser, avec une interface React/Redux.
         </p>
-        <h3 className="techno-title">Technologie utilisées</h3>
-        <ul className="techno-use">
+      </div>
+      <div className="project-technos">
+        <h4>Technologie utilisées</h4>
+        <ul>
           <li>HTML</li>
           <li>SCSS</li>
           <li>Ruby on Rails</li>
@@ -30,15 +31,19 @@ const Project2 = () => {
           <li>Redux</li>
           <li></li>
         </ul>
+      </div>
+      <div className="project-Api">
         <h3 className="techno-title">API et Gems rails</h3>
         <ul className="gems-api">
           <li>Radio-Browser-API</li>
           <li>Rails-API </li>
           <li>Devise-jwt</li>
         </ul>
-        <h3 className="link-title">Liens du projet</h3>
+      </div>
+      <div className="project-link">
+        <h3>Liens du projet</h3>
         <a href="https://github.com/Pakibenji/soundspectrum">
-          <IconBrandGithub size={48} />
+          <IconBrandGithub size={96} />
         </a>
       </div>
     </div>
