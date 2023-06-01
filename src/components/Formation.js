@@ -67,7 +67,6 @@ const Formation = () => {
       <div className="stage-container">
         <div className="stage-title">
           <h5>stage de fin de formation - Juillet et Aout 2023</h5>
-          <p>A suivre</p>
         </div>
       </div>
     </div>

@@ -56,6 +56,8 @@
             font-weight: 600;
             text-align: center;
             margin: 20px 0 20px 0;
+            margin: 20px 15px 20px 15px;
+            border-bottom: 2px solid $primary;
         }
         & ul {
             display: flex;
@@ -103,7 +105,8 @@
             font-size: 1.2rem;
             font-weight: 600;
             text-align: center;
-            margin: 20px 0 20px 0;
+            margin: 20px 15px 20px 15px;
+            border-bottom: 2px solid $primary;
             }
         & ul {
             display: flex;
@@ -148,14 +151,13 @@
             margin: 20px 20px 0px 20px ;
             padding-bottom: 20px;
             box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-            & .active {
-                margin : 10px 0 0 20px;
-            }
+            
     & .stage-title {
                 font-size: 1.2rem;
                 font-weight: 600;
                 text-align: center;
-                margin: 20px 0 20px 0;
+                margin: 20px 15px 20px 15px;
+                border-bottom: 2px solid $primary;
         }
     }
         

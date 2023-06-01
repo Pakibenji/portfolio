@@ -18,7 +18,7 @@
             font-size: 2rem;
             font-weight: 1000;
             text-align: center;
-            margin: 10px 0 0 0;
+            margin: 10px 0 10px 0;
             text-decoration: underline;
             text-underline-offset: 0.2rem;
         }
@@ -34,9 +34,154 @@
             font-weight: 600;
             text-align: right;
         }
+        & .perso {
+            width: fit-content;
+            text-align: center;
+            margin: 0 0 10px 0;
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
     }
-    & p {
-        text-align: center;
-        width: 75%;
+    & .hardskills {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background : $grey;
+        color: $primary ;
+        width: 100%;
+        margin: 35px 20px 0px 20px ;
+        padding-bottom: 20px ;
+        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+        & h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing:  0.1rem ;
+            margin: 20px 15px 20px 15px;
+            border-bottom: 2px solid $primary;
+        }
+        & ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            & li {
+                width: 30%;
+                margin: 10px 0;
+                font-size: 1rem;
+                text-align: center;
+                list-style: none;
+            }
+        }
+    }
+    & .softskills {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background : $grey;
+        color: $primary ;
+        width: 100%;
+        margin: 35px 20px 0px 20px ;
+        padding-bottom: 20px ;
+        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+        & h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing:  0.1rem ;
+            margin: 20px 15px 20px 15px;
+            border-bottom: 2px solid $primary;
+        }
+        & ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            & li {
+                width: 30%;
+                margin: 10px 0;
+                font-size: 1rem;                text-align: center;
+                list-style: none;
+            }
+        }
+    }
+    & .langue {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background : $grey;
+        color: $primary ;
+        width: 45%;
+        margin: 35px 20px 0px 20px ;
+        padding-bottom: 20px ;
+        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+        & h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing:  0.1rem ;
+            margin: 20px 15px 20px 15px;
+            border-bottom: 2px solid $primary;
+        }
+        & ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            & li {
+                width: 30%;
+                margin: 10px 0;
+                font-size: 1rem;
+                text-align: center;
+                list-style: none;
+                & h4 {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    & .loisirs {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        background : $grey;
+        color: $primary ;
+        width: 45%;
+        margin: 35px 20px 0px 20px ;
+        padding-bottom: 20px ;
+        box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+        & h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-align: center;
+            letter-spacing:  0.1rem ;
+            margin: 20px 15px 20px 15px;
+            border-bottom: 2px solid $primary;
+        }
+        & ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto;
+            & li {
+                width: 30%;
+                margin: 10px 0;
+                font-size: 1rem;
+                text-align: center;
+                list-style: none;
+            }
+        }
     }
 }
