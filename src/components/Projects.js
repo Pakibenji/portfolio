@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Project1 from "./Project1";
 import Project2 from "./Project2";
+import { IconInnerShadowLeft, IconInnerShadowRight } from "@tabler/icons-react";
 
 const Project = () => {
   const [index, setIndex] = useState(0);
@@ -19,10 +20,18 @@ const Project = () => {
 
   return (
     <div className="carousel-container">
-      <button onClick={handlePrevious}>Previous</button>
+      <IconInnerShadowLeft
+        size={96}
+        onClick={handlePrevious}
+        className="arrow left"
+      />
       {index === 0 && <Project1 />}
       {index === 1 && <Project2 />}
-      <button onClick={handleNext}>Next</button>
+      <IconInnerShadowRight
+        size={96}
+        onClick={handleNext}
+        className="arrow right"
+      />
     </div>
   );
 };

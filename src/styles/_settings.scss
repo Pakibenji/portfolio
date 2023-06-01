@@ -6,10 +6,11 @@
 $font: "worksans", sans-serif;
 
 $background :#FFFFF5;
-$grey :#cecdcd;
+$grey :linear-gradient(to top, #000000, #434343);
+$project1background :linear-gradient(to right, #bdc3c7, #2c3e50);
 $primary :#000000;
-$secondary :#79e2ff;
-$tertiary : #ff7f50;
+$secondary :#58dbff;
+$tertiary : #50ffdfb4;
 
 * {
     margin: 0;

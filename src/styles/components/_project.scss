@@ -1,0 +1,42 @@
+.project-container {
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #000000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    width: 80vw;
+    height: 50vh;
+    background:$project1background;
+    & .img-container {
+        width: 50%;
+        height: 100%;
+        margin: 15px;
+        & img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    & .project-title {
+        display: flex;
+        width: 50%;
+        height: 20% ;
+        flex-direction: column;
+        text-align: center;
+        color: $background;
+        margin: 15px;
+        border-bottom: 2px solid $background;
+        & h2 {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin: 10px 0 0 0;
+            letter-spacing: 0.1rem;
+            
+        }
+        & h3 {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin: 10px 0 0 0;
+            letter-spacing: 0.1rem;
+        }
+    }
+
+}

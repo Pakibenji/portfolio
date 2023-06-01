@@ -45,7 +45,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         background : $grey;
-        color: $primary ;
+        color: $background ;
         width: 100%;
         margin: 35px 20px 0px 20px ;
         padding-bottom: 20px ;
@@ -57,7 +57,7 @@
             text-align: center;
             margin: 20px 0 20px 0;
             margin: 20px 15px 20px 15px;
-            border-bottom: 2px solid $primary;
+            border-bottom: 2px solid $background;
         }
         & ul {
             display: flex;
@@ -96,7 +96,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         background : $grey;
-        color: $primary ;
+        color: $background ;
         width: 100%;
         margin: 20px 20px 0px 20px ;
         padding-bottom: 20px ;
@@ -106,7 +106,7 @@
             font-weight: 600;
             text-align: center;
             margin: 20px 15px 20px 15px;
-            border-bottom: 2px solid $primary;
+            border-bottom: 2px solid $background;
             }
         & ul {
             display: flex;
@@ -146,7 +146,7 @@
             flex-direction: column;
             flex-wrap: wrap;
             background : $grey;
-            color: $primary ;
+            color: $background ;
             width: 100%;
             margin: 20px 20px 0px 20px ;
             padding-bottom: 20px;
@@ -157,7 +157,7 @@
                 font-weight: 600;
                 text-align: center;
                 margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $primary;
+                border-bottom: 2px solid $background;
         }
     }
         
