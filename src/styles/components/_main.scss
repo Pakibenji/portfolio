@@ -76,3 +76,254 @@
         transform: translate(0, 0);
     }
 }
+
+// responsive design 
+// écran min 320px et max 480px
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .main-container {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding: 2rem 0 2rem 0;
+        & .sociaux {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            & a {
+                scale: 0.9;
+                color: $primary;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+        & .title {
+            align-items: center;
+            text-align: center;
+            padding-bottom: 0.2rem ;
+            text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) ;
+            & h1 {
+                font-size: 2.2rem;
+                font-weight: 1000;
+            }
+            & h2 {
+                font-size: 2rem;
+                font-weight: 600;
+                text-decoration: underline;
+                text-underline-offset: 5px ;
+            }
+            
+        }
+    }
+}
+
+// écran min 481px et max 768px
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .main-container {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem 0 1rem 0;
+        & .sociaux {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            & a {
+                scale: 0.9;
+                color: $primary;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+        & .title {
+            align-items: center;
+            text-align: center;
+            padding-bottom: 0.2rem ;
+            text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) ;
+            & h1 {
+                font-size: 2.5rem;
+                font-weight: 1000;
+            }
+            & h2 {
+                font-size: 2rem;
+                font-weight: 600;
+                text-decoration: underline;
+                text-underline-offset: 5px ;
+            }
+            
+        }
+    }
+}
+
+// écran min 769px et max 1024px
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+.main-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding: 3rem 0 3rem 10rem;
+    & .sociaux {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        & a {
+            scale: 0.9;
+            color: $primary;
+            transition: all 0.3s ease-in-out;
+        }
+        & a:hover{
+            scale: 1.1;
+            color : $secondary;
+            background-color: $primary;
+            border-radius: 0.5rem ;
+        }
+    }
+    & .title {
+        align-items: left;
+        padding-bottom: 0.2rem ;
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) ;
+        & h1 {
+            font-size: 4rem;
+            font-weight: 1000;
+        }
+        & h2 {
+            font-size: 3rem;
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 5px ;
+            }     
+        }
+    }
+}
+
+// écran min 1025px max 1200px
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+    .main-container {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        padding: 3rem 0 3rem 10rem;
+        & .sociaux {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            & a {
+                scale: 0.9;
+                color: $primary;
+                transition: all 0.3s ease-in-out;
+            }
+            & a:hover{
+                scale: 1.1;
+                color : $secondary;
+                background-color: $primary;
+                border-radius: 0.5rem ;
+            }
+        }
+        & .title {
+            align-items: left;
+            padding-bottom: 0.2rem ;
+            text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) ;
+            & h1 {
+                font-size: 4rem;
+                font-weight: 1000;
+            }
+            & h2 {
+                font-size: 3rem;
+                font-weight: 600;
+                text-decoration: underline;
+                text-underline-offset: 5px ;
+            }     
+        }
+    }
+}
+
+// écran min 1201px max 1600px
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+    .main-container {
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        padding: 3rem 0 3rem 10rem;
+        & .sociaux {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            & a {
+                scale: 0.9;
+                color: $primary;
+                transition: all 0.3s ease-in-out;
+            }
+            & a:hover{
+                scale: 1.1;
+                color : $secondary;
+                background-color: $primary;
+                border-radius: 0.5rem ;
+            }
+        }
+        & .title {
+            align-items: left;
+            padding-bottom: 0.2rem ;
+            text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) ;
+            & h1 {
+                font-size: 4rem;
+                font-weight: 1000;
+            }
+            & h2 {
+                font-size: 3rem;
+                font-weight: 600;
+                text-decoration: underline;
+                text-underline-offset: 5px ;
+            }     
+        }
+    }
+}
+
+// écran min 1601px
+@media screen and (min-width: 1601px){
+.main-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    padding: 3rem 0 3rem 10rem;
+    & .sociaux {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        & a {
+            scale: 0.9;
+            color: $primary;
+            transition: all 0.3s ease-in-out;
+        }
+        & a:hover{
+            scale: 1.1;
+            color : $secondary;
+            background-color: $primary;
+            border-radius: 0.5rem ;
+        }
+    }
+    & .title {
+        align-items: left;
+        padding-bottom: 0.2rem ;
+        text-shadow: 0 0 1px rgba(0, 0, 0, 0.5) ;
+        & h1 {
+            font-size: 4rem;
+            font-weight: 1000;
+        }
+        & h2 {
+            font-size: 3rem;
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 5px ;
+            }
+        }
+    }
+}
