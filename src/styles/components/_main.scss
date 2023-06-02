@@ -49,13 +49,6 @@
     border: 5px solid #000000;
     background: $background;
     box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
-    //background: linear-gradient(to bottom, $primary 15% , $secondary 75%);
-    transform: translate(-200%, 0);
-    transition: all 1.2s ease-in-out;
-    color: $primary;
-    &.active {
-        transform: translate(-100%, 0);
-    }
 }
 
 
@@ -68,13 +61,6 @@
     height: 94%;
     border: 5px solid #000000;
     background: $background;
-    transform: translate(100%, 0);
-    transition: all 1.2s ease-in-out;
-    color: $primary;
-    box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
-    &.active {
-        transform: translate(0, 0);
-    }
 }
 
 // responsive design 
@@ -115,7 +101,49 @@
             
         }
     }
+    .formation-popup {
+        z-index: -1;
+        position: fixed;
+        top: 27px;
+        left: 0%;
+        overflow-y: scroll;
+        width: 100%;
+        height: 100%;
+        border: 5px solid #000000;
+        background: $background;
+        opacity: 0;
+        transition: all 1.2s ease-in-out;
+        color: $primary;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+        &.active {
+            opacity: 1;
+            z-index: 100;
+        }
+    }
+    .softskill-popup {
+        z-index: -1;
+        position: fixed;
+        top: 27px;
+        left: 0%;
+        overflow-y: scroll;
+        width: 100%;
+        height: 100%;
+        border: 5px solid #000000;
+        background: $background;
+        opacity: 0;
+        transition: all 1.2s ease-in-out;
+        color: $primary;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+        &.active {
+            opacity: 1;
+            z-index: 100;
+        }
+    }
 }
+
+
+
+
 
 // écran min 481px et max 768px
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -152,6 +180,44 @@
                 text-underline-offset: 5px ;
             }
             
+        }
+    }
+    .formation-popup {
+        z-index: -1;
+        position: fixed;
+        top: 27px;
+        left: 0%;
+        overflow-y: scroll;
+        width: 100%;
+        height: 100%;
+        border: 5px solid #000000;
+        background: $background;
+        opacity: 0;
+        transition: all 1.2s ease-in-out;
+        color: $primary;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+        &.active {
+            opacity: 1;
+            z-index: 100;
+        }
+    }
+    .softskill-popup {
+        z-index: -1;
+        position: fixed;
+        top: 27px;
+        left: 0%;
+        overflow-y: scroll;
+        width: 100%;
+        height: 100%;
+        border: 5px solid #000000;
+        background: $background;
+        opacity: 0;
+        transition: all 1.2s ease-in-out;
+        color: $primary;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+        &.active {
+            opacity: 1;
+            z-index: 100;
         }
     }
 }
@@ -240,6 +306,40 @@
             }     
         }
     }
+    .formation-popup {
+        z-index: 100;
+        position: fixed;
+        top: 3%;
+        left: 50%;
+        width: 50%;
+        height: 94%;
+        border: 5px solid #000000;
+        background: $background;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+        transform: translate(-200%, 0);
+        transition: all 1.2s ease-in-out;
+        color: $primary;
+        &.active {
+            transform: translate(-100%, 0);
+        }
+    }
+    .softskill-popup {
+        z-index: 100;
+        position: fixed;
+        top: 3%;
+        left: 50%;
+        width: 50%;
+        height: 94%;
+        border: 5px solid #000000;
+        background: $background;
+        transform: translate(100%, 0);
+        transition: all 1.2s ease-in-out;
+        color: $primary;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+        &.active {
+            transform: translate(0, 0);
+        }
+    }
 }
 
 // écran min 1201px max 1600px
@@ -283,6 +383,40 @@
             }     
         }
     }
+    .formation-popup {
+        z-index: 100;
+        position: fixed;
+        top: 3%;
+        left: 50%;
+        width: 50%;
+        height: 94%;
+        border: 5px solid #000000;
+        background: $background;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+        transform: translate(-200%, 0);
+        transition: all 1.2s ease-in-out;
+        color: $primary;
+        &.active {
+            transform: translate(-100%, 0);
+        }
+    }
+    .softskill-popup {
+        z-index: 100;
+        position: fixed;
+        top: 3%;
+        left: 50%;
+        width: 50%;
+        height: 94%;
+        border: 5px solid #000000;
+        background: $background;
+        transform: translate(100%, 0);
+        transition: all 1.2s ease-in-out;
+        color: $primary;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+        &.active {
+            transform: translate(0, 0);
+        }
+    }
 }
 
 // écran min 1601px
@@ -324,6 +458,40 @@
             text-decoration: underline;
             text-underline-offset: 5px ;
             }
+        }
+    }
+    .formation-popup {
+        z-index: 100;
+        position: fixed;
+        top: 3%;
+        left: 50%;
+        width: 50%;
+        height: 94%;
+        border: 5px solid #000000;
+        background: $background;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+        transform: translate(-200%, 0);
+        transition: all 1.2s ease-in-out;
+        color: $primary;
+        &.active {
+            transform: translate(-100%, 0);
+        }
+    }
+    .softskill-popup {
+        z-index: 100;
+        position: fixed;
+        top: 3%;
+        left: 50%;
+        width: 50%;
+        height: 94%;
+        border: 5px solid #000000;
+        background: $background;
+        transform: translate(100%, 0);
+        transition: all 1.2s ease-in-out;
+        color: $primary;
+        box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.5);
+        &.active {
+            transform: translate(0, 0);
         }
     }
 }
