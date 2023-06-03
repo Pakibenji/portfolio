@@ -17,17 +17,17 @@ const Main = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconBrandLinkedin size={48} />
+            <IconBrandLinkedin size={48} className="linkedin" />
           </a>
           <a
             href="https://github.com/Pakibenji"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <IconBrandGithub size={48} />
+            <IconBrandGithub size={48} className="github" />
           </a>
           <a href="mailto=alcade.benjamin@gmail.com">
-            <IconBrandGmail size={48} />
+            <IconBrandGmail size={48} className="mail" />
           </a>
         </div>
         <div className="title">
