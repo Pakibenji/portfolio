@@ -66,7 +66,7 @@ const SoftSkill = () => {
           <li>Philosophie</li>
           <li>Politique</li>
           <li>Gastronomie</li>
-          <li>Vin</li>
+          <li>Oenologie</li>
         </ul>
       </div>
     </div>

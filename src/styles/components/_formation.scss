@@ -1,1021 +1,1022 @@
 .formation-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  & .thp-logo {
+    width: 15%;
+    height: 15%;
+    margin: 15px 15px;
+  }
+  & .titles {
+    & h1 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 1000;
+      margin: 10px 0 0 20px;
+      text-decoration: underline;
+      text-underline-offset: 0.2rem;
+    }
+    & h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      text-align: center;
+      margin: 0 0 0 20px;
+    }
+    & h3 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+    }
+    & h4 {
+      font-size: 1rem;
+      font-weight: 600;
+      text-align: center;
+    }
+  }
+  & .title {
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin: 20px 0 0 10px;
+    text-align: center;
+  }
+  & .fullstack-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    background: $grey;
+    color: $background;
     width: 100%;
-    & .thp-logo {
-        width: 15%;
-        height: 15%;
-        margin: 15px 15px;
+    margin: 35px 20px 0px 20px;
+    padding-bottom: 20px;
+    box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+
+    & .fullstack-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+      margin: 20px 15px 20px 15px;
+      border-bottom: 2px solid $background;
     }
-    & .titles {
-        & h1 {
-            text-align: center;
-            font-size: 2rem;
-            font-weight: 1000;
-            margin: 10px 0 0 20px ;
-            text-decoration: underline;
-            text-underline-offset: 0.2rem;
-        }
-        & h2 {
-            font-size: 1.5rem;
-            font-weight: 600;
-            text-align: center;
-            margin: 0 0 0 20px ;
-        }
-        & h3 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            text-align: center;
-        }
-        & h4 {
-            font-size: 1rem;
-            font-weight: 600;
-            text-align: center;
-        }
-    }
-    & .title {
-        font-size: 1.4rem;
-        font-weight: 800;
-        margin : 20px 0 0 10px;
-        text-align: center;
-    }
-    & .fullstack-container {
+    & ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+      & li {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        background : $grey;
-        color: $background ;
-        width: 100%;
-        margin: 35px 20px 0px 20px ;
-        padding-bottom: 20px ;
-        box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-        
-        & .fullstack-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            text-align: center;
-            margin: 20px 15px 20px 15px;
-            border-bottom: 2px solid $background;
-        }
-        & ul {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            width: 100%;
-            margin: 0 auto;
-            padding: 0;
-            list-style: none;
-            & li {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-items: center;
-            }
-        }
-        & .trox-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            text-align: center;
-            margin: 20px 0 20px 0;
-        }
-        & .trox-infos {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 0 0 0 15px;
-        } 
+        justify-content: center;
+        align-items: center;
+      }
     }
-    & .developpeur-container {
+    & .trox-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+      margin: 20px 0 20px 0;
+    }
+    & .trox-infos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 0 0 0 15px;
+    }
+  }
+  & .developpeur-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: $grey;
+    color: $background;
+    width: 100%;
+    margin: 20px 20px 0px 20px;
+    padding-bottom: 20px;
+    box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+    & .developpeur-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+      margin: 20px 15px 20px 15px;
+      border-bottom: 2px solid $background;
+    }
+    & ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+      & li {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        background : $grey;
-        color: $background ;
-        width: 100%;
-        margin: 20px 20px 0px 20px ;
-        padding-bottom: 20px ;
-        box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-        & .developpeur-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            text-align: center;
-            margin: 20px 15px 20px 15px;
-            border-bottom: 2px solid $background;
-            }
-        & ul {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            width: 100%;
-            margin: 0 auto;
-            padding: 0;
-            list-style: none;
-            & li {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-items: center;
-            }
-        }
-        & .soundspectrum-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            text-align: center;
-            margin: 20px 0 20px 0;
-        }
-        & .soundspectrum-infos {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin: 0 0 0 15px;
-            }
+        justify-content: center;
+        align-items: center;
+      }
     }
-    
-    & .stage-container {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            background : $grey;
-            color: $background ;
-            width: 100%;
-            margin: 20px 20px 0px 20px ;
-            padding-bottom: 20px;
-            box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-            
+    & .soundspectrum-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+      margin: 20px 0 20px 0;
+    }
+    & .soundspectrum-infos {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin: 0 0 0 15px;
+    }
+  }
+
+  & .stage-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: $grey;
+    color: $background;
+    width: 100%;
+    margin: 20px 20px 0px 20px;
+    padding-bottom: 20px;
+    box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+
     & .stage-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-        }
-    } 
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+      margin: 20px 15px 20px 15px;
+      border-bottom: 2px solid $background;
+    }
+  }
 }
 
 // responsive
 // min 320 max 480
 @media screen and (min-width: 320px) and (max-width: 480px) {
-    .formation-container {
-        & .thp-logo {
-            width: 50%;
-            height: 50%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        & .titles {
-            text-align: center;
-            & h1 {
-                font-size: 1.5rem;
-                font-weight: 1000;
-                text-align: center;
-                margin: 5px 0 0 20px ;
-                text-decoration: underline;
-                text-underline-offset: 0.2rem;
-            }
-            & h2 {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 10px 0 0 20px ;
-                margin: 0 0 0 20px ;
-            }
-            & h3 {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 10px 0 0 20px ;
-            }
-            & h4 {
-                font-size: 0.8rem;
-                font-weight: 600;
-                text-align: center;
-            }
-        }
-        & .title {
-            font-size: 1rem;
-            font-weight: 800;
-            text-align: center;
-        }
-        & .fullstack-container {
-            & .fullstack-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                padding: 0;
-                list-style: none;
-                & li {
-                    margin: 2px 20px;
-                }
-            }
-            & .trox-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .trox-infos {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                margin: 0 15px 0 15px;
-                text-align: justify;
-            }
-        }
-        & .developpeur-container {
-            & .developpeur-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                padding: 0;
-                list-style: none;
-                & li {
-                    margin: 2px 20px;
-                }
-            }
-            & .soundspectrum-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .soundspectrum-infos {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                margin: 0 0 0 15px;
-            }
-        }
-        & .stage-container {
-            & .stage-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-        }
+  .formation-container {
+    & .thp-logo {
+      width: 50%;
+      height: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
+    & .titles {
+      text-align: center;
+      & h1 {
+        font-size: 1.5rem;
+        font-weight: 1000;
+        text-align: center;
+        margin: 5px 0 0 20px;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+      }
+      & h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 10px 0 0 20px;
+        margin: 0 0 0 20px;
+      }
+      & h3 {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 10px 0 0 20px;
+      }
+      & h4 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+    & .title {
+      font-size: 1rem;
+      font-weight: 800;
+      text-align: center;
+    }
+    & .fullstack-container {
+      & .fullstack-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        & li {
+          margin: 2px 20px;
+        }
+      }
+      & .trox-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .trox-infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 15px 0 15px;
+        text-align: justify;
+      }
+    }
+    & .developpeur-container {
+      & .developpeur-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        & li {
+          margin: 2px 20px;
+        }
+      }
+      & .soundspectrum-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .soundspectrum-infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 0 0 15px;
+      }
+    }
+    & .stage-container {
+      & .stage-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+    }
+  }
 }
 // min 481 max 768
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .formation-container {
-        & .thp-logo {
-            width: 30%;
-            display: block;
-            margin-left: 35%;
-            margin-right: auto;
-        }
-        & .titles {
-            text-align: center;
-            margin: auto;
-            & h1 {
-                font-size: 1.5rem;
-                font-weight: 1000;
-                text-align: center;
-                margin: 5px 0 0 0 ;
-                text-decoration: underline;
-                text-underline-offset: 0.2rem;
-            }
-            & h2 {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 0 0 0 20px ;
-            }
-            & h3 {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 10px 0 0 20px ;
-            }
-            & h4 {
-                font-size: 0.8rem;
-                font-weight: 600;
-                text-align: center;
-            }
-        }
-        & .title {
-            font-size: 1rem;
-            font-weight: 800;
-            text-align: center;
-        }
-        & .fullstack-container {
-            & .fullstack-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                padding: 0;
-                list-style: none;
-                & li {
-                    margin: 2px 20px;
-                }
-            }
-            & .trox-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .trox-infos {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap ;
-                margin: 0 15px 0 15px;
-                text-align: justify;
-            }
-        }
-        & .developpeur-container {
-            & .developpeur-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                padding: 0;
-                list-style: none;
-                & li {
-                    margin: 2px 20px;
-                }
-            }
-            & .soundspectrum-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .soundspectrum-infos {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                margin: 0 0 0 15px;
-            }
-        }
-        & .stage-container {
-            & .stage-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-        }
+  .formation-container {
+    & .thp-logo {
+      width: 30%;
+      display: block;
+      margin-left: 35%;
+      margin-right: auto;
     }
+    & .titles {
+      text-align: center;
+      margin: auto;
+      & h1 {
+        font-size: 1.5rem;
+        font-weight: 1000;
+        text-align: center;
+        margin: 5px 0 0 0;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+      }
+      & h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 0 0 20px;
+      }
+      & h3 {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 10px 0 0 20px;
+      }
+      & h4 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+    & .title {
+      font-size: 1rem;
+      font-weight: 800;
+      text-align: center;
+    }
+    & .fullstack-container {
+      & .fullstack-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        & li {
+          margin: 2px 20px;
+        }
+      }
+      & .trox-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .trox-infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 15px 0 15px;
+        text-align: justify;
+      }
+    }
+    & .developpeur-container {
+      & .developpeur-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        & li {
+          margin: 2px 20px;
+        }
+      }
+      & .soundspectrum-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .soundspectrum-infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 0 0 15px;
+      }
+    }
+    & .stage-container {
+      & .stage-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+    }
+  }
 }
 // min 769 max 1024
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .formation-container {
+  .formation-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    & .thp-logo {
+      width: 15%;
+      height: 15%;
+      margin: 15px 15px;
+    }
+    & .titles {
+      & h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 1000;
+        margin: 10px 0 0 20px;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+      }
+      & h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 0 0 20px;
+      }
+      & h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+      }
+      & h4 {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+    & .title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin: 20px 0 0 10px;
+      text-align: center;
+    }
+    & .fullstack-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background: $grey;
+      color: $background;
+      width: 100%;
+      margin: 35px 20px 0px 20px;
+      padding-bottom: 20px;
+      box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+
+      & .fullstack-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
         width: 100%;
-        & .thp-logo {
-            width: 15%;
-            height: 15%;
-            margin: 15px 15px;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+        & li {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
         }
-        & .titles {
-            & h1 {
-                text-align: center;
-                font-size: 2rem;
-                font-weight: 1000;
-                margin: 10px 0 0 20px ;
-                text-decoration: underline;
-                text-underline-offset: 0.2rem;
-            }
-            & h2 {
-                font-size: 1.5rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 0 0 0 20px ;
-            }
-            & h3 {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-            }
-            & h4 {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-            }
-        }
-        & .title {
-            font-size: 1.4rem;
-            font-weight: 800;
-            margin : 20px 0 0 10px;
-            text-align: center;
-        }
-        & .fullstack-container {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            background : $grey;
-            color: $background ;
-            width: 100%;
-            margin: 35px 20px 0px 20px ;
-            padding-bottom: 20px ;
-            box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-            
-            & .fullstack-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: center;
-                width: 100%;
-                margin: 0 auto;
-                padding: 0;
-                list-style: none;
-                & li {
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                }
-            }
-            & .trox-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .trox-infos {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                margin: 0 0 0 15px;
-            } 
-        }
-        & .developpeur-container {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            background : $grey;
-            color: $background ;
-            width: 100%;
-            margin: 20px 20px 0px 20px ;
-            padding-bottom: 20px ;
-            box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-            & .developpeur-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-                }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: center;
-                width: 100%;
-                margin: 0 auto;
-                padding: 0;
-                list-style: none;
-                & li {
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                }
-            }
-            & .soundspectrum-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .soundspectrum-infos {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                margin: 0 0 0 15px;
-                }
-        }
-        
-        & .stage-container {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                background : $grey;
-                color: $background ;
-                width: 100%;
-                margin: 20px 20px 0px 20px ;
-                padding-bottom: 20px;
-                box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-                
-        & .stage-title {
-                    font-size: 1.2rem;
-                    font-weight: 600;
-                    text-align: center;
-                    margin: 20px 15px 20px 15px;
-                    border-bottom: 2px solid $background;
-            }
-        } 
+      }
+      & .trox-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .trox-infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 0 0 15px;
+      }
     }
+    & .developpeur-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background: $grey;
+      color: $background;
+      width: 100%;
+      margin: 20px 20px 0px 20px;
+      padding-bottom: 20px;
+      box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+      & .developpeur-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+        & li {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      & .soundspectrum-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .soundspectrum-infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 0 0 15px;
+      }
+    }
+
+    & .stage-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background: $grey;
+      color: $background;
+      width: 100%;
+      margin: 20px 20px 0px 20px;
+      padding-bottom: 20px;
+      box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+
+      & .stage-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+    }
+  }
 }
 
 // min 1025 max 1200
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .formation-container {
-        & .thp-logo {
-            width: 50%;
-            height: 50%;
-        }
-        & .titles {
-            text-align: center;
-            & h1 {
-                font-size: 1.5rem;
-                font-weight: 1000;
-                text-align: center;
-                margin: 5px 0 0 20px ;
-                text-decoration: underline;
-                text-underline-offset: 0.2rem;
-            }
-            & h2 {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 10px 0 0 20px ;
-                margin: 0 0 0 20px ;
-            }
-            & h3 {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 10px 0 0 20px ;
-            }
-            & h4 {
-                font-size: 0.8rem;
-                font-weight: 600;
-                text-align: center;
-            }
-        }
-        & .title {
-            font-size: 1rem;
-            font-weight: 800;
-            text-align: center;
-        }
-        & .fullstack-container {
-            & .fullstack-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                padding: 0;
-                list-style: none;
-                & li {
-                    margin: 2px 20px;
-                }
-            }
-            & .trox-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .trox-infos {
-                display: flex;
-                flex-direction: row;
-                flex-wrap : wrap;
-                margin: 0 15px 0 15px;
-                text-align: justify;
-            }
-        }
-        & .developpeur-container {
-            & .developpeur-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                padding: 0;
-                list-style: none;
-                & li {
-                    margin: 2px 20px;
-                }
-            }
-            & .soundspectrum-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .soundspectrum-infos {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                margin: 0 0 0 15px;
-            }
-        }
-        & .stage-container {
-            & .stage-title {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-        }
+  .formation-container {
+    & .thp-logo {
+      width: 50%;
+      height: 50%;
     }
+    & .titles {
+      text-align: center;
+      & h1 {
+        font-size: 1.5rem;
+        font-weight: 1000;
+        text-align: center;
+        margin: 5px 0 0 20px;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+      }
+      & h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 10px 0 0 20px;
+        margin: 0 0 0 20px;
+      }
+      & h3 {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 10px 0 0 20px;
+      }
+      & h4 {
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+    & .title {
+      font-size: 1rem;
+      font-weight: 800;
+      text-align: center;
+    }
+    & .fullstack-container {
+      & .fullstack-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        & li {
+          margin: 2px 20px;
+        }
+      }
+      & .trox-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .trox-infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 15px 0 15px;
+        text-align: justify;
+      }
+    }
+    & .developpeur-container {
+      & .developpeur-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+        list-style: none;
+        & li {
+          margin: 2px 20px;
+        }
+      }
+      & .soundspectrum-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .soundspectrum-infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 0 0 15px;
+      }
+    }
+    & .stage-container {
+      & .stage-title {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+    }
+  }
 }
 
 // 1200 à 1600
 
 @media screen and (min-width: 1200px) and (max-width: 1600px) {
-    .formation-container {
+  .formation-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    & .thp-logo {
+      width: 15%;
+      height: 15%;
+      margin: 15px 15px;
+    }
+    & .titles {
+      width: 60%;
+      & h1 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 1000;
+        margin: 10px 0 0 20px;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+      }
+      & h2 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 0 0 20px;
+      }
+      & h3 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        text-align: center;
+      }
+      & h4 {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+    & .title {
+      font-size: 1.2rem;
+      font-weight: 800;
+      margin: 0 0 0 10px;
+      text-align: center;
+    }
+    & .fullstack-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background: $grey;
+      color: $background;
+      width: 100%;
+      margin: 0 20px 0px 20px;
+      padding-bottom: 20px;
+      box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+
+      & .fullstack-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
         width: 100%;
-        & .thp-logo {
-            width: 15%;
-            height: 15%;
-            margin: 15px 15px;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+        & li {
+          margin: 2px 20px;
         }
-        & .titles {
-            & h1 {
-                text-align: center;
-                font-size: 2rem;
-                font-weight: 1000;
-                margin: 10px 0 0 20px ;
-                text-decoration: underline;
-                text-underline-offset: 0.2rem;
-            }
-            & h2 {
-                font-size: 1.5rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 0 0 0 20px ;
-            }
-            & h3 {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-            }
-            & h4 {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-            }
-        }
-        & .title {
-            font-size: 1.4rem;
-            font-weight: 800;
-            margin : 20px 0 0 10px;
-            text-align: center;
-        }
-        & .fullstack-container {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            background : $grey;
-            color: $background ;
-            width: 100%;
-            margin: 35px 20px 0px 20px ;
-            padding-bottom: 20px ;
-            box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-            
-            & .fullstack-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                align-items: center;
-                width: 100%;
-                margin: 0 auto;
-                padding: 0;
-                list-style: none;
-                & li {
-                    margin: 2px 20px;
-                }
-            }
-            & .trox-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .trox-infos {
-                margin: 0 auto;
-                text-align: center;
-            } 
-        }
-        & .developpeur-container {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            background : $grey;
-            color: $background ;
-            width: 100%;
-            margin: 20px 20px 0px 20px ;
-            padding-bottom: 20px ;
-            box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-            & .developpeur-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-                }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: center;
-                width: 100%;
-                margin: 0 auto;
-                padding: 0;
-                list-style: none;
-                & li {
-                    margin: 2px 20px;
-                }
-            }
-            & .soundspectrum-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .soundspectrum-infos {
-                text-align: center;
-                }
-        }
-        
-        & .stage-container {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                background : $grey;
-                color: $background ;
-                width: 100%;
-                margin: 20px 20px 0px 20px ;
-                padding-bottom: 20px;
-                box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-                
-        & .stage-title {
-                    font-size: 1.2rem;
-                    font-weight: 600;
-                    text-align: center;
-                    margin: 20px 15px 20px 15px;
-                    border-bottom: 2px solid $background;
-            }
-        } 
+      }
+      & .trox-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .trox-infos {
+        margin: 0 auto;
+        text-align: center;
+      }
     }
+    & .developpeur-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background: $grey;
+      color: $background;
+      width: 100%;
+      margin: 20px 20px 0px 20px;
+      padding-bottom: 20px;
+      box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+      & .developpeur-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 15px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+        & li {
+          margin: 2px 20px;
+        }
+      }
+      & .soundspectrum-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .soundspectrum-infos {
+        text-align: center;
+      }
+    }
+
+    & .stage-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background: $grey;
+      color: $background;
+      width: 100%;
+      margin: 20px 20px 0px 20px;
+      padding-bottom: 20px;
+      box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+
+      & .stage-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 15px 15px 0 15px;
+        border-bottom: 2px solid $background;
+      }
+    }
+  }
 }
 // min 1600
 
 @media screen and (min-width: 1600px) {
-    .formation-container {
+  .formation-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    & .thp-logo {
+      width: 15%;
+      height: 15%;
+      margin: 15px 15px;
+    }
+    & .titles {
+      & h1 {
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 1000;
+        margin: 10px 0 0 20px;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+      }
+      & h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 0 0 20px;
+      }
+      & h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+      }
+      & h4 {
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+      }
+    }
+    & .title {
+      font-size: 1.4rem;
+      font-weight: 800;
+      margin: 20px 0 0 10px;
+      text-align: center;
+    }
+    & .fullstack-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background: $grey;
+      color: $background;
+      width: 100%;
+      margin: 35px 20px 0px 20px;
+      padding-bottom: 20px;
+      box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+
+      & .fullstack-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
         width: 100%;
-        & .thp-logo {
-            width: 15%;
-            height: 15%;
-            margin: 15px 15px;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+        & li {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
         }
-        & .titles {
-            & h1 {
-                text-align: center;
-                font-size: 2rem;
-                font-weight: 1000;
-                margin: 10px 0 0 20px ;
-                text-decoration: underline;
-                text-underline-offset: 0.2rem;
-            }
-            & h2 {
-                font-size: 1.5rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 0 0 0 20px ;
-            }
-            & h3 {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-            }
-            & h4 {
-                font-size: 1rem;
-                font-weight: 600;
-                text-align: center;
-            }
-        }
-        & .title {
-            font-size: 1.4rem;
-            font-weight: 800;
-            margin : 20px 0 0 10px;
-            text-align: center;
-        }
-        & .fullstack-container {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            background : $grey;
-            color: $background ;
-            width: 100%;
-            margin: 35px 20px 0px 20px ;
-            padding-bottom: 20px ;
-            box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-            
-            & .fullstack-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-            }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: center;
-                width: 100%;
-                margin: 0 auto;
-                padding: 0;
-                list-style: none;
-                & li {
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                }
-            }
-            & .trox-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .trox-infos {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                margin: 0 0 0 15px;
-            } 
-        }
-        & .developpeur-container {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: wrap;
-            background : $grey;
-            color: $background ;
-            width: 100%;
-            margin: 20px 20px 0px 20px ;
-            padding-bottom: 20px ;
-            box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-            & .developpeur-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 15px 20px 15px;
-                border-bottom: 2px solid $background;
-                }
-            & ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                align-items: center;
-                width: 100%;
-                margin: 0 auto;
-                padding: 0;
-                list-style: none;
-                & li {
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                    align-items: center;
-                }
-            }
-            & .soundspectrum-title {
-                font-size: 1.2rem;
-                font-weight: 600;
-                text-align: center;
-                margin: 20px 0 20px 0;
-            }
-            & .soundspectrum-infos {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: space-around;
-                margin: 0 0 0 15px;
-                }
-        }
-        
-        & .stage-container {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                background : $grey;
-                color: $background ;
-                width: 100%;
-                margin: 20px 20px 0px 20px ;
-                padding-bottom: 20px;
-                box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-                
-        & .stage-title {
-                    font-size: 1.2rem;
-                    font-weight: 600;
-                    text-align: center;
-                    margin: 20px 15px 20px 15px;
-                    border-bottom: 2px solid $background;
-            }
-        } 
+      }
+      & .trox-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .trox-infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 0 0 15px;
+      }
     }
+    & .developpeur-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background: $grey;
+      color: $background;
+      width: 100%;
+      margin: 20px 20px 0px 20px;
+      padding-bottom: 20px;
+      box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+      & .developpeur-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+      & ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        list-style: none;
+        & li {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      & .soundspectrum-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 0 20px 0;
+      }
+      & .soundspectrum-infos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 0 0 0 15px;
+      }
+    }
+
+    & .stage-container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background: $grey;
+      color: $background;
+      width: 100%;
+      margin: 20px 20px 0px 20px;
+      padding-bottom: 20px;
+      box-shadow: -5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+
+      & .stage-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 20px 15px 20px 15px;
+        border-bottom: 2px solid $background;
+      }
+    }
+  }
 }
