@@ -8,6 +8,7 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   & p {
     font-size: 1.1rem;
+    padding: 0 0.1rem;
     font-weight: 950;
     transition: all 0.3s ease-in-out;
     animation: slideIn 1s ease-in-out;
@@ -30,7 +31,45 @@
     background-color: $primary;
     cursor: pointer;
   }
+  & .active {
+    scale: 1.3;
+    color: $secondary;
+    background-color: $primary;
+  }
   & .formation {
     margin-right: 15rem;
+  }
+}
+
+// responsive for smartphone
+@media screen and (max-width: 768px) {
+  .nav-container {
+    padding: 0 0 0 0;
+    justify-content: space-around;
+    & p {
+      font-size: 1rem;
+    }
+    & .active {
+      scale: 1.3;
+      padding: 0.2rem 0.2rem;
+      color: $secondary;
+      background-color: $primary;
+    }
+    & .formation {
+      margin-right: 0;
+    }
+  }
+}
+
+// responsive for tablet
+@media screen and (max-width: 1024px) {
+  .nav-container {
+    padding: 0 0 0 0;
+    & p {
+      font-size: 1rem;
+    }
+    & .formation {
+      margin-right: 0;
+    }
   }
 }
