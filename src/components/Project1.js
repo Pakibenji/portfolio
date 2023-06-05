@@ -31,7 +31,7 @@ const Project1 = () => {
         </ul>
       </div>
       <div className="project-Api">
-        <h3>API et Gems rails</h3>
+        <h4>API et Gems rails</h4>
         <ul>
           <li>MapBox</li>
           <li>Geocoder </li>
@@ -40,7 +40,7 @@ const Project1 = () => {
         </ul>
       </div>
       <div className="project-link">
-        <h3>Liens du projet</h3>
+        <h4>Liens du projet</h4>
         <a href="https://github.com/Pakibenji/trox">
           <IconBrandGithub size={96} />
         </a>

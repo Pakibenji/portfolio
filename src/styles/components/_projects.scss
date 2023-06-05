@@ -1,89 +1,44 @@
 .carousel-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100vw;
-    height: 55vh;
-    margin: 20px auto;
-    padding: 0;
-    Animation: viewwidthAnimation 1s cubic-bezier(0.69, 1, 0.8, 0.7) 1s forwards;
-    @keyframes viewwidthAnimation {
-        0% {
-            width: 0vw;
-            height: 0vh;
-            opacity: 0;
-            border-radius: 50%;
-        }
-        75% {
-            border-radius: 50%;
-        }
-        100% {
-            width: 100vw;
-            height: 55vh;
-            opacity: 1;
-            border-radius: 0%;
-        }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 55vh;
+  margin: 20px auto;
+  padding: 0;
+  animation: viewwidthAnimation 1s cubic-bezier(0.69, 1, 0.8, 0.7) 1s forwards;
+  @keyframes viewwidthAnimation {
+    0% {
+      width: 0vw;
+      height: 0vh;
+      opacity: 0;
+      border-radius: 50%;
     }
-    & .arrow {
-        margin: 0 auto;
-        border-radius: 50%;
-        &:hover {
-            cursor: pointer;
-            background: $primary;
-            color: $secondary;
-            transition: all 0.8s ease-in-out;
-        }
+    75% {
+      border-radius: 50%;
     }
-    & .left:hover {
-        transform: rotate(360deg);
+    100% {
+      width: 100vw;
+      height: 55vh;
+      opacity: 1;
+      border-radius: 0%;
     }
-    & .right:hover {
-        transform: rotate(-360deg);
+  }
+  & .arrow {
+    margin: 0 auto;
+    border-radius: 50%;
+    &:hover {
+      cursor: pointer;
+      background: $primary;
+      color: $secondary;
+      transition: all 0.8s ease-in-out;
     }
-} 
-
-// responsive carousel-container for mobile devices 
-// min 320 max 480
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-    .carousel-container {
-        width: 100vw;
-        height: 55vh;
-        margin: 20px auto;
-        padding: 0;
-        Animation: viewwidthAnimation 1s cubic-bezier(0.69, 1, 0.8, 0.7) 1s forwards;
-        @keyframes viewwidthAnimation {
-            0% {
-                width: 0vw;
-                height: 0vh;
-                opacity: 0;
-                border-radius: 50%;
-            }
-            75% {
-                border-radius: 50%;
-            }
-            100% {
-                width: 100vw;
-                height: 55vh;
-                opacity: 1;
-                border-radius: 0%;
-            }
-        }
-        & .arrow {
-            margin: 0 auto;
-            border-radius: 50%;
-            &:hover {
-                cursor: pointer;
-                background: $primary;
-                color: $secondary;
-                transition: all 0.8s ease-in-out;
-            }
-        }
-        & .left:hover {
-            transform: rotate(360deg);
-        }
-        & .right:hover {
-            transform: rotate(-360deg);
-        }
-    }
+  }
+  & .left:hover {
+    transform: rotate(360deg);
+  }
+  & .right:hover {
+    transform: rotate(-360deg);
+  }
 }

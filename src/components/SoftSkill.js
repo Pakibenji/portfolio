@@ -15,8 +15,8 @@ const SoftSkill = () => {
         <div className="perso">
           <p>
             Je suis Benjamin Alcade, développeur web junior. <br />
-            Menuisier de formation, j'ai ensuite travaillé pendant plusieurs
-            années dans le domaine du commerce de détail.
+            Menuisier de formation, j'ai ensuite travaillé en tant que vendeur
+            polyvalent et résponsable de rayon dans un magasin bio.
             <br />
             J'ai suivi une formation de développeur web à l'école The Hacking
             Project.

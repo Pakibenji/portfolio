@@ -1,244 +1,36 @@
 .nav-container {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 0 20rem 0 0 ;
-    height: 2rem;
-    border-bottom: 5px solid #000000;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    & p {
-        font-size: 1.1rem;
-        font-weight: 950;
-        transition: all 0.3s ease-in-out;
-        padding: 0 1rem 0 1rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0 20rem 0 0;
+  height: 2rem;
+  border-bottom: 5px solid #000000;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  & p {
+    font-size: 1.1rem;
+    font-weight: 950;
+    transition: all 0.3s ease-in-out;
+    animation: slideIn 1s ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    @keyframes slideIn {
+      0% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0%);
+        opacity: 1;
+      }
     }
-
-    & .formation {
-        margin-right: 15rem;
-    }
-    & .active {
-        scale : 1.3;
-        color : $secondary;
-        background-color: $primary;
-    }
-}
-
-// écran min 320px max 480px
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    .nav-container {
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0 0 0 0;
-        & p {
-            font-size: 1rem;
-            font-weight: 950;
-            transition: all 0.3s ease-in-out;
-            // une animation novatrice qui fait appraitre le texte de droite à gauche
-            animation: slideIn 1s ease-in-out;
-            animation-fill-mode: forwards;
-            animation-delay: 1.5s;
-            @keyframes slideIn {
-                0% {
-                    transform: translateY(100%);
-                    opacity: 0;
-                }
-                100% {
-                    transform: translateY(0%);
-                    opacity: 1;
-                }
-            }
-        }
-        & .formation {
-            margin-right: 0;
-        }
-    }
-}
-
-// écran min 481px max 768px
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .nav-container {
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0 0 0 0;
-        & p {
-            font-size: 1rem;
-            font-weight: 950;
-            transition: all 0.3s ease-in-out;
-            animation: slideIn 1s ease-in-out;
-            animation-fill-mode: forwards;
-            animation-delay: 1.5s;
-            @keyframes slideIn {
-                0% {
-                    transform: translateY(100%);
-                    opacity: 0;
-                }
-                100% {
-                    transform: translateY(0%);
-                    opacity: 1;
-                }
-            }
-        }
-        & .formation {
-            margin-right: 0;
-        }
-    }
-}
-
-// écran min 769px max 1024px
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .nav-container {
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0 0 0 0;
-        & p {
-            font-size: 1rem;
-            font-weight: 950;
-            transition: all 0.3s ease-in-out;
-            animation: slideIn 1s ease-in-out;
-            animation-fill-mode: forwards;
-            animation-delay: 1.5s;
-            @keyframes slideIn {
-                0% {
-                    transform: translateY(100%);
-                    opacity: 0;
-                }
-                100% {
-                    transform: translateY(0%);
-                    opacity: 1;
-                }
-            }
-        }
-        & .formation {
-            margin-right: 0;
-        }
-        & p:hover {
-            scale : 1.3;
-            color : $secondary;
-            background-color: $primary;
-            cursor: pointer;
-        }
-    }
-}
-
-// écran min 1025px max 1200px
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .nav-container {
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        padding: 0 0 0 0;
-        & p {
-            font-size: 1rem;
-            font-weight: 950;
-            transition: all 0.3s ease-in-out;
-            animation: slideIn 1s ease-in-out;
-            animation-fill-mode: forwards;
-            animation-delay: 1.5s;
-            @keyframes slideIn {
-                0% {
-                    transform: translateY(100%);
-                    opacity: 0;
-                }
-                100% {
-                    transform: translateY(0%);
-                    opacity: 1;
-                }
-            }
-        }
-        & .formation {
-            margin-right: 0;
-        }
-        & p:hover {
-            scale : 1.3;
-            color : $secondary;
-            background-color: $primary;
-            cursor: pointer;
-        }
-    }
-}
-// écran min 1201px max 1600px
-@media screen and (min-width: 1201px) and (max-width: 1600px) {
-    .nav-container {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        padding: 0 10rem 0 0 ;
-        height: 2rem;
-        border-bottom: 5px solid #000000;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        & p {
-            font-size: 1rem;
-            font-weight: 950;
-            transition: all 0.3s ease-in-out;
-            animation: slideIn 1s ease-in-out;
-            animation-fill-mode: forwards;
-            animation-delay: 1.5s;
-            @keyframes slideIn {
-                0% {
-                    transform: translateY(100%);
-                    opacity: 0;
-                }
-                100% {
-                    transform: translateY(0%);
-                    opacity: 1;
-                }
-            }
-        }
-        & .formation {
-            margin-right: 10rem;
-        }
-        & p:hover {
-            scale : 1.3;
-            color : $secondary;
-            background-color: $primary;
-            cursor: pointer;
-        }
-    }
-}
-
-// écran min 1601px
-@media screen and (min-width: 1601px) {
-    .nav-container {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        padding: 0 20rem 0 0 ;
-        height: 2rem;
-        border-bottom: 5px solid #000000;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-        & p {
-            font-size: 1.1rem;
-            font-weight: 950;
-            transition: all 0.3s ease-in-out;
-            animation: slideIn 1s ease-in-out;
-            animation-fill-mode: forwards;
-            animation-delay: 1.5s;
-            @keyframes slideIn {
-                0% {
-                    transform: translateY(100%);
-                    opacity: 0;
-                }
-                100% {
-                    transform: translateY(0%);
-                    opacity: 1;
-                }
-            }
-        }
-        & p:hover {
-            scale : 1.3;
-            color : $secondary;
-            background-color: $primary;
-            cursor: pointer;
-        }
-        & .formation {
-            margin-right: 15rem;
-        }
-    }
+  }
+  & p:hover {
+    scale: 1.3;
+    color: $secondary;
+    background-color: $primary;
+    cursor: pointer;
+  }
+  & .formation {
+    margin-right: 15rem;
+  }
 }

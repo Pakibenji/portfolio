@@ -9,7 +9,7 @@ const Project2 = () => {
       </div>
       <div className="project-title">
         <h2>Sound Spectrum</h2>
-        <h3>Application de lecture de radio en ligne, avec filtre par genre</h3>
+        <h3>Application de lecture de radio en ligne, avec filtre</h3>
       </div>
       <div className="project-description">
         <p>
@@ -33,7 +33,7 @@ const Project2 = () => {
         </ul>
       </div>
       <div className="project-Api">
-        <h3 className="techno-title">API et Gems rails</h3>
+        <h4 className="techno-title">API et Gems rails</h4>
         <ul className="gems-api">
           <li>Radio-Browser-API</li>
           <li>Rails-API </li>
@@ -41,7 +41,7 @@ const Project2 = () => {
         </ul>
       </div>
       <div className="project-link">
-        <h3>Liens du projet</h3>
+        <h4>Liens du projet</h4>
         <a href="https://github.com/Pakibenji/soundspectrum">
           <IconBrandGithub size={96} />
         </a>

@@ -1,199 +1,42 @@
 .presentation-container {
-    background: $primary;
-    color: $background;
-    width: 100vw;
-    height: 100vh;
-    z-index: 100;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  background: $primary;
+  color: $background;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  animation: up 2s cubic-bezier(0.9, 0, 0.42, 0.43) forwards;
+  & h1 {
+    font-size: 10rem;
+    font-weight: 1000;
+    letter-spacing: 0.5rem;
+    text-align: center;
     align-items: center;
-    overflow: hidden;
-    animation: up 2s cubic-bezier(0.9, 0, 0.42, 0.43) forwards;
-    & h1 {
-        font-size: 10rem;
-        font-weight: 1000;
-        letter-spacing: 0.5rem;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  & h2 {
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  @keyframes up {
+    0% {
+      transform: translateY(0);
     }
-    & h2 {
-        font-size: 5rem;
-        font-weight: 900;
-        letter-spacing: 0.5rem;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        margin: 0 0 0 0;
-        padding: 0;
+    100% {
+      transform: translateY(-100vh);
     }
-    @keyframes up {
-        0% {
-            transform: translateY(0);
-        }
-        100% {
-            transform: translateY(-100vh);
-        }
-    }
-        
-}
-
-// écran min 320px max 480px
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    .presentation-container {
-        & h1 {
-            font-size: 2.3rem;
-            font-weight: 1000;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-        & h2 {
-            font-size: 2rem;
-            font-weight: 900;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0 0 0 0;
-            padding: 0;
-        }
-    }
-}
-
-// écran min 481px max 768px
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .presentation-container {
-        & h1 {
-            font-size: 4rem;
-            font-weight: 1000;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-        & h2 {
-            font-size: 2.5rem;
-            font-weight: 900;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0 0 0 0;
-            padding: 0;
-        }
-    }
-}
-
-// écran min 769px max 1024px
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .presentation-container {
-        & h1 {
-            font-size: 5rem;
-            font-weight: 1000;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-        & h2 {
-            font-size: 3.5rem;
-            font-weight: 900;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0 0 0 0;
-            padding: 0;
-        }
-    }
-}
-
-// écran min 1025px max 1200px
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .presentation-container {
-        & h1 {
-            font-size: 5rem;
-            font-weight: 1000;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-        & h2 {
-            font-size: 3.5rem;
-            font-weight: 900;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0 0 0 0;
-            padding: 0;
-        }
-    }
-}
-
-// écran min 1201px max 1600px
-@media screen and (min-width: 1201px) and (max-width: 1600px) {
-    .presentation-container {
-        & h1 {
-            font-size: 8rem;
-            font-weight: 1000;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-        & h2 {
-            font-size: 5rem;
-            font-weight: 900;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0 0 0 0;
-            padding: 0;
-        }
-    }
-}
-
-// écran min 1601px
-@media screen and (min-width: 1601px) {
-    .presentation-container {
-        & h1 {
-            font-size: 10rem;
-            font-weight: 1000;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0;
-            padding: 0;
-        }
-        & h2 {
-            font-size: 5rem;
-            font-weight: 900;
-            letter-spacing: 0.1rem;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            margin: 0 0 0 0;
-            padding: 0;
-        }
-    }
+  }
 }
