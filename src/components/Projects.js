@@ -20,7 +20,7 @@ const Project = () => {
 
   return (
     <>
-      {window.innerWidth > 768 && (
+      {window.innerWidth > 1024 && (
         <div className="carousel-container">
           <IconInnerShadowLeft
             size={96}
@@ -36,7 +36,7 @@ const Project = () => {
           />
         </div>
       )}
-      {window.innerWidth <= 768 && (
+      {window.innerWidth <= 1024 && (
         <>
           <div className="projects-container">
             <Project1 />

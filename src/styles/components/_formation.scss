@@ -160,3 +160,75 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .formation-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    & .thp-logo {
+      display: none;
+    }
+    & .titles {
+      & h1 {
+        font-size: 1.8rem;
+        margin: 0 0 0 0;
+      }
+      & h2 {
+        font-size: 1.2rem;
+      }
+      & h3 {
+        font-size: 1rem;
+      }
+      & h4 {
+        font-size: 0.8rem;
+      }
+    }
+    & .title {
+      font-size: 1.2rem;
+      margin: 20px 0 0 0;
+    }
+    & .fullstack-container {
+      margin: 0 0 0 0;
+      & .fullstack-title {
+        font-size: 1rem;
+      }
+      & ul {
+        justify-content: space-around;
+        & li {
+          margin: 0 10px 10px 0;
+        }
+      }
+      & .trox-title {
+        font-size: 1rem;
+      }
+      & .trox-infos {
+        margin: 0 0 0 0;
+      }
+    }
+    & .developpeur-container {
+      margin: 10px 0 0 0;
+      & .developpeur-title {
+        font-size: 1rem;
+      }
+      & ul {
+        justify-content: space-around;
+        & li {
+          margin: 0 10px 10px 0;
+        }
+      }
+      & .soundspectrum-title {
+        font-size: 1rem;
+      }
+      & .soundspectrum-infos {
+        margin: 0 0 0 0;
+      }
+    }
+    & .stage-container {
+      margin: 10px 0 0 0;
+      & .stage-title {
+        font-size: 1rem;
+      }
+    }
+  }
+}

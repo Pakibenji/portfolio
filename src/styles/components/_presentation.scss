@@ -40,3 +40,36 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  // changer la taille de la police pour que ca convienne au smartphone
+  .presentation-container {
+    & h1 {
+      font-size: 3rem;
+      font-weight: 1000;
+      letter-spacing: 0.5rem;
+    }
+    & h2 {
+      margin-top: 5px;
+      font-size: 1.5rem;
+      font-weight: 900;
+      letter-spacing: 0.5rem;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .presentation-container {
+    & h1 {
+      font-size: 5rem;
+      font-weight: 1000;
+      letter-spacing: 0.5rem;
+    }
+    & h2 {
+      margin-top: 5px;
+      font-size: 2.5rem;
+      font-weight: 900;
+      letter-spacing: 0.5rem;
+    }
+  }
+}

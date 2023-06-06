@@ -64,6 +64,7 @@
 // responsive for tablet
 @media screen and (max-width: 1024px) {
   .nav-container {
+    justify-content: space-around;
     padding: 0 0 0 0;
     & p {
       font-size: 1rem;

@@ -15,8 +15,8 @@ const Formation = () => {
         <h4>1200h intensives sur 6 mois</h4>
       </div>
       <h5 className="title">
-        Formation comprenant deux parties de trois mois comprenants chacune un
-        projet final.{" "}
+        Formation en deux parties de trois mois comprenants chacune un projet
+        final.{" "}
       </h5>
       <br />
       <div className="fullstack-container">

@@ -124,24 +124,98 @@
       }
     }
   }
+  .formation-popup {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translate(-100%, 26px);
+    &.active {
+      transform: translate(0%, 26px);
+    }
+  }
+  .softskill-popup {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translate(100%, 26px);
+    &.active {
+      transform: translate(0, 26px);
+    }
+  }
 }
-/*.formation-popup {
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .main-container {
+    display: block;
+    width: 100%;
+    align-items: center;
+    padding: 2rem 1rem 2rem 1rem;
+    & .sociaux {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      & a {
+        scale: 0.9;
+        color: $primary;
+        padding: 0.3rem;
+        margin: 0 0.5rem;
+        transition: all 0.3s ease-in-out;
+        & .linkedin {
+          border-radius: 50%;
+          animation: pulse 3s infinite forwards alternate;
+        }
+        & .github {
+          border-radius: 50%;
+          animation: pulse 3s infinite forwards alternate;
+          animation-delay: 1s;
+        }
+        & .mail {
+          border-radius: 50%;
+          animation: pulse 3s infinite forwards alternate;
+          animation-delay: 2s;
+        }
+      }
+      @keyframes pulse {
+        0% {
+          transform: scale(0.9);
+        }
+        100% {
+          transform: scale(1.1);
+        }
+      }
+    }
+    & .title {
+      margin: 1rem 0 1rem 0;
+      text-align: center;
+      & h1 {
+        font-size: 4rem;
+      }
+      & h2 {
+        font-size: 2.5rem;
+      }
+    }
+  }
+  .formation-popup {
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    transform: translate(0, 0);
+    transform: translate(-100%, 26px);
     &.active {
-      transform: translate(0, 0);
+      transform: translate(0%, 26px);
     }
-  }*/
-/*.softskill-popup {
+  }
+  .softskill-popup {
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    transform: translate(0, 0);
+    transform: translate(100%, 26px);
     &.active {
-      transform: translate(0, 0);
+      transform: translate(0, 26px);
     }
-  }*/
+  }
+}

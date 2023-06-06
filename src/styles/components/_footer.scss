@@ -31,7 +31,22 @@
       font-weight: 800;
       margin-left: 5px;
     }
-    & .footer-icons {
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 2rem;
+    position: relative;
+    padding: 0;
+    & p {
+      font-size: 0.8rem;
+      font-weight: 800;
+      margin-left: 5px;
     }
   }
 }
