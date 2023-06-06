@@ -19,20 +19,34 @@ const Project = () => {
   };
 
   return (
-    <div className="carousel-container">
-      <IconInnerShadowLeft
-        size={96}
-        onClick={handlePrevious}
-        className="arrow left"
-      />
-      {index === 0 && <Project1 />}
-      {index === 1 && <Project2 />}
-      <IconInnerShadowRight
-        size={96}
-        onClick={handleNext}
-        className="arrow right"
-      />
-    </div>
+    <>
+      {window.innerWidth > 768 && (
+        <div className="carousel-container">
+          <IconInnerShadowLeft
+            size={96}
+            onClick={handlePrevious}
+            className="arrow left"
+          />
+          {index === 0 && <Project1 />}
+          {index === 1 && <Project2 />}
+          <IconInnerShadowRight
+            size={96}
+            onClick={handleNext}
+            className="arrow right"
+          />
+        </div>
+      )}
+      {window.innerWidth <= 768 && (
+        <>
+          <div className="projects-container">
+            <Project1 />
+          </div>
+          <div className="projects-container">
+            <Project2 />
+          </div>
+        </>
+      )}
+    </>
   );
 };
 export default Project;
