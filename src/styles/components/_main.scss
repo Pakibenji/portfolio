@@ -103,6 +103,9 @@
           animation: pulse 3s infinite forwards alternate;
           animation-delay: 2s;
         }
+        & a:hover {
+          inherits: none;
+        }
       }
       @keyframes pulse {
         0% {
@@ -178,6 +181,9 @@
           border-radius: 50%;
           animation: pulse 3s infinite forwards alternate;
           animation-delay: 2s;
+        }
+        & a:hover {
+          inherits: none;
         }
       }
       @keyframes pulse {
