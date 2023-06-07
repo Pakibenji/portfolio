@@ -80,7 +80,7 @@
       font-size: 1.2rem;
       font-weight: 600;
       text-align: center;
-      margin: 20px 0 20px 0;
+      margin: 0px 0 20px 0;
     }
     & .trox-infos {
       display: flex;
@@ -163,19 +163,22 @@
 
 @media screen and (max-width: 768px) {
   .formation-container {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 15px;
+    margin-bottom: 50px;
+    justify-content: center;
     & .thp-logo {
       display: none;
+      width: 30%;
+      height: 30%;
+      margin: 15px 15px;
     }
     & .titles {
       & h1 {
-        font-size: 1.8rem;
-        margin: 0 0 0 0;
+        font-size: 1.5rem;
+        margin: 10px 0 0 20px;
       }
       & h2 {
         font-size: 1.2rem;
+        margin: 0 0 0 20px;
       }
       & h3 {
         font-size: 1rem;
@@ -186,48 +189,181 @@
     }
     & .title {
       font-size: 1.2rem;
-      margin: 20px 0 0 0;
+      font-weight: 800;
+      margin: 20px 0 0 10px;
+      text-align: center;
     }
     & .fullstack-container {
-      margin: 0 0 0 0;
       & .fullstack-title {
         font-size: 1rem;
+        margin: 20px 15px 20px 15px;
       }
       & ul {
-        justify-content: space-around;
+        margin-bottom: 20px;
         & li {
-          margin: 0 10px 10px 0;
+          margin-left: 5px;
         }
-      }
-      & .trox-title {
-        font-size: 1rem;
-      }
-      & .trox-infos {
-        margin: 0 0 0 0;
       }
     }
     & .developpeur-container {
-      margin: 10px 0 0 0;
       & .developpeur-title {
         font-size: 1rem;
+        margin: 20px 15px 20px 15px;
       }
       & ul {
-        justify-content: space-around;
+        padding: 5px;
         & li {
-          margin: 0 10px 10px 0;
+          margin-left: 5px;
         }
       }
       & .soundspectrum-title {
         font-size: 1rem;
-      }
-      & .soundspectrum-infos {
-        margin: 0 0 0 0;
+        margin: 20px 0 20px 0;
       }
     }
     & .stage-container {
-      margin: 10px 0 0 0;
       & .stage-title {
         font-size: 1rem;
+        margin: 20px 15px 20px 15px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .formation-container {
+    justify-content: center;
+    margin-bottom: 50px;
+    & .thp-logo {
+      display: none;
+      width: 30%;
+      height: 30%;
+      margin: 15px 15px;
+    }
+    & .titles {
+      & h1 {
+        font-size: 1.5rem;
+        margin: 10px 0 0 20px;
+      }
+      & h2 {
+        font-size: 1.2rem;
+        margin: 0 0 0 20px;
+      }
+      & h3 {
+        font-size: 1rem;
+      }
+      & h4 {
+        font-size: 0.8rem;
+      }
+    }
+    & .title {
+      font-size: 1.2rem;
+      font-weight: 800;
+      margin: 20px 0 0 10px;
+      text-align: center;
+    }
+    & .fullstack-container {
+      & .fullstack-title {
+        font-size: 1rem;
+        margin: 20px 15px 20px 15px;
+      }
+      & ul {
+        margin-bottom: 20px;
+        & li {
+          margin-left: 5px;
+        }
+      }
+    }
+    & .developpeur-container {
+      & .developpeur-title {
+        font-size: 1rem;
+        margin: 20px 15px 20px 15px;
+      }
+      & ul {
+        padding: 5px;
+        & li {
+          margin-left: 5px;
+        }
+      }
+      & .soundspectrum-title {
+        font-size: 1rem;
+        margin: 20px 0 20px 0;
+      }
+    }
+    & .stage-container {
+      & .stage-title {
+        font-size: 1rem;
+        margin: 20px 15px 20px 15px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
+  .formation-container {
+    justify-content: center;
+    margin-bottom: 50px;
+    & .thp-logo {
+      display: none;
+    }
+    & .titles {
+      margin: 0;
+      & h1 {
+        font-size: 1.5rem;
+        margin: 10px 0 0 0px;
+      }
+      & h2 {
+        font-size: 1.2rem;
+        margin: 0 0 0 0px;
+      }
+      & h3 {
+        font-size: 1rem;
+        margin: 0;
+      }
+      & h4 {
+        font-size: 0.8rem;
+        margin: 0;
+      }
+    }
+    & .title {
+      font-size: 1.2rem;
+      font-weight: 800;
+      margin: 5px 0 0 0px;
+      text-align: center;
+      padding: 0;
+      height: 10px;
+    }
+    & .fullstack-container {
+      & .fullstack-title {
+        font-size: 1rem;
+        margin: 20px 15px 20px 15px;
+      }
+      & ul {
+        margin-bottom: 20px;
+        & li {
+          margin-left: 5px;
+        }
+      }
+    }
+    & .developpeur-container {
+      & .developpeur-title {
+        font-size: 1rem;
+        margin: 20px 15px 20px 15px;
+      }
+      & ul {
+        padding: 5px;
+        & li {
+          margin-left: 5px;
+        }
+      }
+      & .soundspectrum-title {
+        font-size: 1rem;
+        margin: 20px 0 20px 0;
+      }
+    }
+    & .stage-container {
+      & .stage-title {
+        font-size: 1rem;
+        margin: 20px 15px 20px 15px;
       }
     }
   }

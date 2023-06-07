@@ -14,7 +14,7 @@ const SoftSkill = () => {
         <h3>Lyon, France</h3>
         <div className="perso">
           <p>
-            Je suis Benjamin Alcade, développeur web junior. <br />
+            Je m'appelle Benjamin Alcade, développeur web junior. <br />
             Menuisier de formation, j'ai ensuite travaillé en tant que vendeur
             polyvalent et résponsable de rayon dans un magasin bio.
             <br />

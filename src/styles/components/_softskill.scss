@@ -191,4 +191,185 @@
 
 // responsive pour 768px
 @media screen and (max-width: 768px) {
+  .softskill-container {
+    width: 100%;
+    padding-bottom: 50px;
+    & .photo-benjamin {
+      width: 25%;
+      margin: 10px auto;
+    }
+    & .titles {
+      width: 100%;
+      margin: 0 auto;
+      & h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 10px 0 10px 0;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+      }
+      & h2 {
+        width: 45%;
+        margin-left: 15px;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: left;
+      }
+      & h3 {
+        width: 50%;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: right;
+      }
+      & .perso {
+        width: fit-content;
+        text-align: center;
+        margin: 5px 15px 10px 15px;
+        font-size: 1rem;
+        font-weight: 600;
+      }
+    }
+    & .langue {
+      width: 100%;
+    }
+    & .loisirs {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .softskill-container {
+    width: 100%;
+    padding-bottom: 50px;
+    & .photo-benjamin {
+      width: 25%;
+      margin: 10px auto;
+    }
+    & .titles {
+      width: 100%;
+      margin: 0 auto;
+      & h1 {
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        margin: 10px 0 10px 0;
+        text-decoration: underline;
+        text-underline-offset: 0.2rem;
+      }
+      & h2 {
+        width: 45%;
+        margin-left: 40px;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: left;
+      }
+      & h3 {
+        width: 45%;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: right;
+      }
+      & .perso {
+        width: fit-content;
+        text-align: center;
+        margin: 5px 15px 10px 15px;
+        font-size: 1.2rem;
+        font-weight: 600;
+      }
+    }
+    & .langue {
+      width: 100%;
+    }
+    & .loisirs {
+      width: 100%;
+    }
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1600px) {
+  .softskill-container {
+    & .titles {
+      & h1 {
+        font-size: 1.5rem;
+      }
+      & h2 {
+        width: 45%;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: left;
+      }
+      & h3 {
+        width: 45%;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: right;
+      }
+      & .perso {
+        width: fit-content;
+        height: 120px;
+        text-align: center;
+        margin: 5px 5px 10px 5px;
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+    }
+    & .hardskills {
+      margin: 0 20px;
+      & h3 {
+        font-size: 0.8rem;
+      }
+      & ul {
+        margin: 0;
+        & li {
+          margin: 0;
+          font-size: 1rem;
+        }
+      }
+    }
+    & .softskills {
+      margin: 20px 20px 0 20px;
+      & h3 {
+        font-size: 0.8rem;
+      }
+      & ul {
+        margin: 0;
+        & li {
+          justify-content: space-between;
+          margin: 0;
+          font-size: 1rem;
+        }
+      }
+    }
+    & .langue {
+      width: 100%;
+      margin: 20px 20px 0 20px;
+      & h3 {
+        font-size: 0.8rem;
+      }
+      & ul {
+        margin: 0;
+        & li {
+          justify-content: space-between;
+          margin: 0;
+          font-size: 1rem;
+        }
+      }
+    }
+    & .loisirs {
+      width: 100%;
+      margin: 20px 20px 0 20px;
+      & h3 {
+        font-size: 0.8rem;
+      }
+      & ul {
+        margin: 0;
+        & li {
+          justify-content: space-between;
+          margin: 0;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }

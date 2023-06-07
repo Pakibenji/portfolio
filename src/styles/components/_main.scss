@@ -129,6 +129,7 @@
     height: 100%;
     top: 0;
     left: 0;
+    overflow-y: scroll;
     transform: translate(-100%, 26px);
     &.active {
       transform: translate(0%, 26px);
@@ -139,6 +140,7 @@
     height: 100%;
     top: 0;
     left: 0;
+    overflow-y: scroll;
     transform: translate(100%, 26px);
     &.active {
       transform: translate(0, 26px);
@@ -203,6 +205,7 @@
     height: 100%;
     top: 0;
     left: 0;
+    overflow-y: scroll;
     transform: translate(-100%, 26px);
     &.active {
       transform: translate(0%, 26px);
@@ -213,6 +216,7 @@
     height: 100%;
     top: 0;
     left: 0;
+    overflow-y: scroll;
     transform: translate(100%, 26px);
     &.active {
       transform: translate(0, 26px);
