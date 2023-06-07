@@ -163,68 +163,86 @@
 
 @media screen and (max-width: 768px) {
   .formation-container {
-    margin-bottom: 50px;
     justify-content: center;
+    margin-bottom: 50px;
     & .thp-logo {
       display: none;
-      width: 30%;
-      height: 30%;
-      margin: 15px 15px;
     }
     & .titles {
+      text-align: center;
+      margin: 0 auto;
       & h1 {
-        font-size: 1.5rem;
-        margin: 10px 0 0 20px;
+        font-size: 1.8rem;
+        margin: 10px 0 0 0;
       }
       & h2 {
-        font-size: 1.2rem;
-        margin: 0 0 0 20px;
+        font-size: 1.5rem;
+        margin: 10px 0 0 0;
       }
       & h3 {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        margin: 10px 0 0 0;
       }
       & h4 {
-        font-size: 0.8rem;
+        font-size: 1rem;
+        margin: 0;
       }
     }
     & .title {
-      font-size: 1.2rem;
-      font-weight: 800;
-      margin: 20px 0 0 10px;
       text-align: center;
+      font-size: 1rem;
+      font-weight: 800;
+      margin: 5px 0 0 0;
     }
     & .fullstack-container {
+      margin: 0 15px;
       & .fullstack-title {
-        font-size: 1rem;
-        margin: 20px 15px 20px 15px;
+        font-size: 1.3rem;
+        margin: 5px 30px 10px 30px;
       }
       & ul {
-        margin-bottom: 20px;
+        justify-content: space-around;
+        padding: 0 5px;
         & li {
-          margin-left: 5px;
+          margin: 0 0 10px 0;
         }
+      }
+      & .trox-title {
+        font-size: 1.3rem;
+        margin: 5px 30px 10px 30px;
+      }
+      & .trox-infos {
+        text-align: center;
+        font-size: 1rem;
       }
     }
     & .developpeur-container {
+      margin: 20px 15px 0 15px;
       & .developpeur-title {
-        font-size: 1rem;
-        margin: 20px 15px 20px 15px;
+        font-size: 1.3rem;
+        margin: 5px 30px 10px 30px;
       }
       & ul {
-        padding: 5px;
+        justify-content: space-around;
+        padding: 0 5px;
         & li {
-          margin-left: 5px;
+          margin: 0 0 10px 0;
         }
       }
       & .soundspectrum-title {
+        font-size: 1.3rem;
+        margin: 5px 30px 10px 30px;
+      }
+      & .soundspectrum-infos {
+        text-align: center;
         font-size: 1rem;
-        margin: 20px 0 20px 0;
       }
     }
     & .stage-container {
+      margin: 20px 15px 0 15px;
       & .stage-title {
-        font-size: 1rem;
-        margin: 20px 15px 20px 15px;
+        font-size: 1.3rem;
+        margin: 5px 30px 10px 30px;
       }
     }
   }
