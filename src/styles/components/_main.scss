@@ -14,12 +14,6 @@
       color: $primary;
       transition: all 0.3s ease-in-out;
     }
-    & a:hover {
-      scale: 1.1;
-      color: $secondary;
-      background-color: $primary;
-      border-radius: 0.5rem;
-    }
   }
   & .title {
     align-items: left;
@@ -103,9 +97,6 @@
           animation: pulse 3s infinite forwards alternate;
           animation-delay: 2s;
         }
-        & a:hover {
-          inherits: none;
-        }
       }
       @keyframes pulse {
         0% {
@@ -182,9 +173,6 @@
           animation: pulse 3s infinite forwards alternate;
           animation-delay: 2s;
         }
-        & a:hover {
-          inherits: none;
-        }
       }
       @keyframes pulse {
         0% {
@@ -226,6 +214,19 @@
     transform: translate(100%, 26px);
     &.active {
       transform: translate(0, 26px);
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .main-container {
+    & .sociaux {
+      & a:hover {
+        scale: 1.1;
+        color: $secondary;
+        background-color: $primary;
+        border-radius: 0.5rem;
+      }
     }
   }
 }
