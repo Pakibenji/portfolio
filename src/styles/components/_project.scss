@@ -229,7 +229,7 @@
       & ul {
         & li {
           font-size: 0.8rem;
-          margin: 0 10px;
+          margin: 0px 10px 10px 0;
         }
       }
     }
@@ -322,6 +322,148 @@
       font-size: 1.5rem;
       & a {
         margin: 0;
+      }
+    }
+  }
+}
+@media screen and (width: 1280px) and (height: 800px) {
+  .project-container {
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    font-family: $font2;
+    letter-spacing: 0.2rem;
+    & .img-container {
+      width: 45%;
+      height: 100%;
+      margin: 15px 0 15px 5px;
+      & img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    & .project-title {
+      width: 50%;
+      height: 20%;
+      text-align: center;
+      background: $primary;
+      margin: 15px;
+      box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+      & h2 {
+        width: 100%;
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin: 10px 0 0 0;
+        letter-spacing: 0.3rem;
+      }
+      & h3 {
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 10px 0 0 0;
+        letter-spacing: 0.2rem;
+      }
+    }
+    & .project-description {
+    }
+    & .project-technos {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 50%;
+      margin-top: 10px;
+      text-align: center;
+      color: $primary;
+      border: 5px solid $primary;
+      box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+      & h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: $secondary;
+        background: $primary;
+        margin-bottom: 10px;
+      }
+      & ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        & li {
+          letter-spacing: 0.1rem;
+          margin: 0 10px;
+          font-family: $font;
+          font-size: 1rem;
+          font-weight: 1000;
+          letter-spacing: normal;
+        }
+      }
+    }
+    & .project-Api {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 50%;
+      text-align: center;
+      color: $primary;
+      border: 5px solid $primary;
+      box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+      & h4 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: $secondary;
+        background: $primary;
+        margin-bottom: 10px;
+      }
+      & ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        & li {
+          letter-spacing: 0.1rem;
+          margin: 0 10px;
+          font-family: $font;
+          font-size: 1rem;
+          font-weight: 1000;
+          letter-spacing: normal;
+        }
+      }
+    }
+    & .project-link {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 50%;
+      height: 18%;
+      color: $primary;
+      border: 5px solid $primary;
+      box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+      & h4 {
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+        color: $secondary;
+        background: $primary;
+        margin: 0;
+      }
+      & a {
+        height: 50%;
+        font-family: $font;
+        font-size: 0.5rem;
+        font-weight: 1000;
+        letter-spacing: normal;
+        color: $primary;
+        scale: 0.7;
+        transform: translateY(-5px);
       }
     }
   }

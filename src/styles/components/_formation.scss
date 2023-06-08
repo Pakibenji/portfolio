@@ -225,8 +225,7 @@
     & .fullstack-container {
       margin: 0 15px;
       & .fullstack-title {
-        font-size: 1.3rem;
-        margin: 5px 30px 10px 30px;
+        font-size: 1.2rem;
       }
       & ul {
         justify-content: space-around;
@@ -236,8 +235,7 @@
         }
       }
       & .trox-title {
-        font-size: 1.3rem;
-        margin: 5px 30px 10px 30px;
+        font-size: 1.2rem;
       }
       & .trox-infos {
         text-align: center;
@@ -248,8 +246,7 @@
     & .developpeur-container {
       margin: 20px 15px 0 15px;
       & .developpeur-title {
-        font-size: 1.3rem;
-        margin: 5px 30px 10px 30px;
+        font-size: 1.2rem;
       }
       & ul {
         justify-content: space-around;
@@ -259,8 +256,7 @@
         }
       }
       & .soundspectrum-title {
-        font-size: 1.3rem;
-        margin: 5px 30px 10px 30px;
+        font-size: 1.2rem;
       }
       & .soundspectrum-infos {
         text-align: center;
@@ -271,8 +267,7 @@
     & .stage-container {
       margin: 20px 15px 0 15px;
       & .stage-title {
-        font-size: 1.3rem;
-        margin: 5px 30px 10px 30px;
+        font-size: 1.2rem;
       }
     }
   }
@@ -312,36 +307,34 @@
     }
     & .fullstack-container {
       & .fullstack-title {
-        font-size: 1rem;
-        margin: 20px 15px 20px 15px;
+        font-size: 1.5rem;
       }
       & ul {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         & li {
           margin-left: 5px;
         }
       }
+      & .trox-title {
+        font-size: 1.5rem;
+      }
     }
     & .developpeur-container {
       & .developpeur-title {
-        font-size: 1rem;
-        margin: 20px 15px 20px 15px;
+        font-size: 1.5rem;
       }
       & ul {
-        padding: 5px;
         & li {
           margin-left: 5px;
         }
       }
       & .soundspectrum-title {
-        font-size: 1rem;
-        margin: 20px 0 20px 0;
+        font-size: 1.5rem;
       }
     }
     & .stage-container {
       & .stage-title {
-        font-size: 1rem;
-        margin: 20px 15px 20px 15px;
+        font-size: 1.5rem;
       }
     }
   }
@@ -382,8 +375,7 @@
     }
     & .fullstack-container {
       & .fullstack-title {
-        font-size: 1rem;
-        margin: 20px 15px 20px 15px;
+        font-size: 1.5rem;
       }
       & ul {
         margin-bottom: 20px;
@@ -394,8 +386,7 @@
     }
     & .developpeur-container {
       & .developpeur-title {
-        font-size: 1rem;
-        margin: 20px 15px 20px 15px;
+        font-size: 1.5rem;
       }
       & ul {
         padding: 5px;
@@ -404,14 +395,12 @@
         }
       }
       & .soundspectrum-title {
-        font-size: 1rem;
-        margin: 20px 0 20px 0;
+        font-size: 1.5rem;
       }
     }
     & .stage-container {
       & .stage-title {
-        font-size: 1rem;
-        margin: 20px 15px 20px 15px;
+        font-size: 1.5rem;
       }
     }
   }
