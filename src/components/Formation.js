@@ -35,7 +35,9 @@ const Formation = () => {
           <li>GITHUB</li>
           <li>AGILE</li>
         </ul>
-        <h3 className="trox-title">TROX</h3>
+        <div className="trox-title">
+          <h5>TROX</h5>
+        </div>
         <p className="trox-infos">
           Projet de fin de formation en groupe de 4 personnes. Création d'une
           application web de prêts d'outils entre particuliers.{" "}
@@ -57,7 +59,9 @@ const Formation = () => {
           <li>VERCEL</li>
           <li>NETLIFY</li>
         </ul>
-        <h3 className="soundspectrum-title">SOUND SPECTRUM</h3>
+        <div className="soundspectrum-title">
+          <h5>SOUND SPECTRUM</h5>
+        </div>
         <p className="soundspectrum-infos">
           Projet de fin de formation en binome. Création d'une application web
           de streaming de radio en fonction des genres musicaux préferés de
@@ -66,8 +70,7 @@ const Formation = () => {
       </div>
       <div className="stage-container">
         <div className="stage-title">
-          <h5>Stage de fin de formation </h5>
-          <h5>Juillet et Aout 2023</h5>
+          <h5>Stage de fin de formation - Juillet et Aout 2023 </h5>
         </div>
       </div>
     </div>

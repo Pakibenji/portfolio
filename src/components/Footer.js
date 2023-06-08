@@ -9,14 +9,14 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="footer-container">
+    <footer className="footer-container">
       <p>Benjamin Alcade - 2023</p>
       <IconBrandHtml5 size={24} className="footer-icons" />
       <IconBrandCss3 size={24} className="footer-icons" />
       <IconBrandSass size={24} className="footer-icons" />
       <IconBrandJavascript size={24} className="footer-icons" />
       <IconBrandReact size={24} className="footer-icons" />
-    </div>
+    </footer>
   );
 };
 export default Footer;

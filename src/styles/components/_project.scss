@@ -1,12 +1,12 @@
 .project-container {
   display: flex;
   flex-direction: column;
-  border: 5px solid #000000;
+  border: 5px solid $primary;
   box-shadow: 8px 8px 8px 3px rgba(0, 0, 0, 0.8);
   flex-wrap: wrap;
   width: 70vw;
   height: 55vh;
-  background: black;
+  background: $background;
   color: $secondary;
   align-items: center;
   font-family: $font2;
@@ -16,7 +16,10 @@
     align-items: center;
     width: 45%;
     height: 100%;
-    margin: 15px;
+    margin: 15px 0 15px 0;
+    padding: 15px;
+    border: 5px solid $primary;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
     & img {
       width: 100%;
       object-fit: cover;
@@ -29,10 +32,11 @@
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
+    background: $primary;
     margin: 15px;
-    border-bottom: 2px solid $secondary;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
     & h2 {
-      font-size: 1.8rem;
+      font-size: 2.5rem;
       font-weight: bold;
       margin: 10px 0 0 0;
       letter-spacing: 0.3rem;
@@ -50,10 +54,12 @@
     width: 50%;
     flex-direction: column;
     text-align: center;
+    color: $primary;
+    font-family: $font;
     & p {
       font-size: 1rem;
-      font-weight: 500;
-      letter-spacing: 0.1rem;
+      font-weight: 1000;
+      letter-spacing: normal;
     }
   }
   & .project-technos {
@@ -63,10 +69,16 @@
     width: 50%;
     margin-top: 10px;
     text-align: center;
+    color: $primary;
+    border: 5px solid $primary;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
     & h4 {
       font-size: 1.2rem;
       font-weight: 600;
       letter-spacing: 0.1rem;
+      color: $secondary;
+      background: $primary;
+      margin-bottom: 10px;
     }
     & ul {
       display: flex;
@@ -77,10 +89,12 @@
       margin: 0;
       padding: 0;
       & li {
-        font-size: 1rem;
-        font-weight: 500;
         letter-spacing: 0.1rem;
         margin: 0 10px;
+        font-family: $font;
+        font-size: 1rem;
+        font-weight: 1000;
+        letter-spacing: normal;
       }
     }
   }
@@ -91,10 +105,16 @@
     width: 50%;
     margin-top: 10px;
     text-align: center;
+    color: $primary;
+    border: 5px solid $primary;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
     & h4 {
       font-size: 1.2rem;
       font-weight: 600;
       letter-spacing: 0.1rem;
+      color: $secondary;
+      background: $primary;
+      margin-bottom: 10px;
     }
     & ul {
       display: flex;
@@ -105,10 +125,12 @@
       margin: 0;
       padding: 0;
       & li {
-        font-size: 1rem;
-        font-weight: 500;
         letter-spacing: 0.1rem;
         margin: 0 10px;
+        font-family: $font;
+        font-size: 1rem;
+        font-weight: 1000;
+        letter-spacing: normal;
       }
     }
   }
@@ -117,18 +139,27 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 50%;
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: center;
     justify-content: center;
-    & a {
-      font-size: 1rem;
-      font-weight: 500;
+    color: $primary;
+    border: 5px solid $primary;
+    box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
+    & h4 {
+      font-size: 1.2rem;
+      font-weight: 600;
       letter-spacing: 0.1rem;
-      text-decoration: none;
       color: $secondary;
-      &:hover {
-        transition: all 0.3s ease-in-out;
-      }
+      background: $primary;
+      margin-bottom: 10px;
+    }
+    & a {
+      margin: 0 10px;
+      font-family: $font;
+      font-size: 0.5rem;
+      font-weight: 1000;
+      letter-spacing: normal;
+      color: $primary;
     }
   }
 }

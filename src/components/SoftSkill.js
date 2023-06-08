@@ -29,7 +29,9 @@ const SoftSkill = () => {
         </div>
       </div>
       <div className="hardskills">
-        <h5>Technos préfèrées</h5>
+        <div className="hardskills-title">
+          <h5>Technos préfèrées</h5>
+        </div>
         <ul>
           <li>Javascript</li>
           <li>React</li>
@@ -38,7 +40,9 @@ const SoftSkill = () => {
         </ul>
       </div>
       <div className="softskills">
-        <h5>SoftSkills</h5>
+        <div className="sofskills-title">
+          <h5>SoftSkills</h5>
+        </div>
         <ul>
           <li>Capactié d'adaptation</li>
           <li>Autonomie</li>
@@ -49,7 +53,9 @@ const SoftSkill = () => {
         </ul>
       </div>
       <div className="langue">
-        <h5>Langues</h5>
+        <div className="langue-title">
+          <h5>Langues</h5>
+        </div>
         <ul>
           <li>
             <h4>Français</h4>
@@ -61,7 +67,9 @@ const SoftSkill = () => {
         </ul>
       </div>
       <div className="loisirs">
-        <h5>Loisirs</h5>
+        <div className="loisirs-title">
+          <h5>Loisirs</h5>
+        </div>
         <ul>
           <li>Musique</li>
           <li>Philosophie</li>

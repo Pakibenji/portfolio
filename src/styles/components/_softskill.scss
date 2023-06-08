@@ -17,6 +17,7 @@
     flex-wrap: wrap;
     & h1 {
       width: 100%;
+      text-transform: uppercase;
       font-size: 2rem;
       font-weight: 1000;
       text-align: center;
@@ -48,19 +49,24 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: $grey;
-    color: $background;
+    background: $background;
+    color: $primary;
     width: 100%;
     margin: 20px 20px 0px 20px;
     padding-bottom: 20px;
+    border: 5px solid $primary;
     box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-    & h5 {
-      font-size: 1.2rem;
-      font-weight: 600;
+    & .hardskills-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      text-transform: uppercase;
       text-align: center;
+      background: $primary;
+      color: $secondary;
+      background: $primary;
+      margin-bottom: 10px;
+      font-family: $font2;
       letter-spacing: 0.1rem;
-      margin: 20px 15px 20px 15px;
-      border-bottom: 2px solid $background;
     }
     & ul {
       display: flex;
@@ -74,8 +80,9 @@
         width: 30%;
         margin: 10px 0;
         font-size: 1rem;
-        text-align: center;
         list-style: none;
+        text-align: center;
+        font-weight: 600;
       }
     }
   }
@@ -83,19 +90,24 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: $grey;
-    color: $background;
+    background: $background;
+    color: $primary;
     width: 100%;
     margin: 35px 20px 0px 20px;
     padding-bottom: 20px;
+    border: 5px solid $primary;
     box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-    & h5 {
-      font-size: 1.2rem;
-      font-weight: 600;
+    & .sofskills-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      text-transform: uppercase;
       text-align: center;
+      background: $primary;
+      color: $secondary;
+      background: $primary;
+      margin-bottom: 10px;
+      font-family: $font2;
       letter-spacing: 0.1rem;
-      margin: 20px 15px 20px 15px;
-      border-bottom: 2px solid $background;
     }
     & ul {
       display: flex;
@@ -111,6 +123,7 @@
         font-size: 1rem;
         text-align: center;
         list-style: none;
+        font-weight: 600;
       }
     }
   }
@@ -118,19 +131,24 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: $grey;
-    color: $background;
+    background: $background;
+    color: $primary;
     width: 45%;
     margin: 35px 20px 0px 20px;
     padding-bottom: 20px;
+    border: 5px solid $primary;
     box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-    & h5 {
-      font-size: 1.2rem;
-      font-weight: 600;
+    & .langue-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      text-transform: uppercase;
       text-align: center;
+      background: $primary;
+      color: $secondary;
+      background: $primary;
+      margin-bottom: 10px;
+      font-family: $font2;
       letter-spacing: 0.1rem;
-      margin: 20px 15px 20px 15px;
-      border-bottom: 2px solid $background;
     }
     & ul {
       display: flex;
@@ -146,8 +164,11 @@
         font-size: 1rem;
         text-align: center;
         list-style: none;
+        text-align: center;
+        font-weight: 400;
         & h4 {
           margin-bottom: 5px;
+          font-weight: 800;
         }
       }
     }
@@ -156,19 +177,24 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    background: $grey;
-    color: $background;
+    background: $background;
+    color: $primary;
     width: 45%;
     margin: 35px 20px 0px 20px;
     padding-bottom: 20px;
+    border: 5px solid $primary;
     box-shadow: 5px 5px 3px 0px rgba(0, 0, 0, 0.8);
-    & h5 {
-      font-size: 1.2rem;
-      font-weight: 600;
+    & .loisirs-title {
+      font-size: 1.8rem;
+      font-weight: 800;
+      text-transform: uppercase;
       text-align: center;
+      background: $primary;
+      color: $secondary;
+      background: $primary;
+      margin-bottom: 10px;
+      font-family: $font2;
       letter-spacing: 0.1rem;
-      margin: 20px 15px 20px 15px;
-      border-bottom: 2px solid $background;
     }
     & ul {
       display: flex;
@@ -184,6 +210,7 @@
         font-size: 1rem;
         text-align: center;
         list-style: none;
+        font-weight: 600;
       }
     }
   }

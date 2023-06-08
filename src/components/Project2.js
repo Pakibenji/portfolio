@@ -43,7 +43,7 @@ const Project2 = () => {
       <div className="project-link">
         <h4>Liens du projet</h4>
         <a href="https://github.com/Pakibenji/soundspectrum">
-          <IconBrandGithub size={96} />
+          <IconBrandGithub size={64} />
         </a>
       </div>
     </div>

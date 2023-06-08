@@ -35,16 +35,15 @@ const Nav = () => {
       apropos.classList.remove("active");
     }
   };
-
   return (
-    <div className="nav-container">
+    <nav className="nav-container">
       <p className="formation" onClick={toggleFormation}>
         Formation
       </p>
       <p className="apropos" onClick={toggleSoftSkill}>
         A propos
       </p>
-    </div>
+    </nav>
   );
 };
 

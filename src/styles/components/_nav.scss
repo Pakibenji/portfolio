@@ -6,10 +6,12 @@
   height: 2rem;
   border-bottom: 5px solid #000000;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
   & p {
     font-size: 1.1rem;
     padding: 0 0.1rem;
     font-weight: 950;
+    text-transform: uppercase;
     transition: all 0.3s ease-in-out;
     animation: slideIn 1s ease-in-out;
     animation-fill-mode: forwards;
