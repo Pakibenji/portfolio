@@ -1,6 +1,18 @@
 import React from "react";
 
 const Nav = () => {
+  const toggleBodyScroll = () => {
+    const formationPopup = document.querySelector(".formation-popup");
+    const softskillPopup = document.querySelector(".softskill-popup");
+    if (
+      formationPopup.classList.contains("active") ||
+      softskillPopup.classList.contains("active")
+    ) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  };
   const toggleFormation = () => {
     const formationPopup = document.querySelector(".formation-popup");
     const formation = document.querySelector(".formation");
@@ -8,6 +20,7 @@ const Nav = () => {
     formation.classList.toggle("active");
     if (window.innerWidth <= 1024) {
       removeSoftskillPopup();
+      toggleBodyScroll();
     }
   };
   const toggleSoftSkill = () => {
@@ -17,6 +30,7 @@ const Nav = () => {
     apropos.classList.toggle("active");
     if (window.innerWidth <= 1024) {
       removeFormationPopup();
+      toggleBodyScroll();
     }
   };
   const removeFormationPopup = () => {

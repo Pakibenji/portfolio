@@ -169,6 +169,8 @@
     display: flex;
     width: 90vw;
     height: 100%;
+    margin: 0 auto;
+    padding: 15px;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -176,7 +178,9 @@
       width: 100%;
       height: 50%;
       margin: 0;
+      padding: 0;
       & img {
+        margin: 0;
         width: 100%;
         height: 100%;
       }
@@ -184,7 +188,7 @@
     & .project-title {
       width: 100%;
       height: 20%;
-      margin: 0 0 10px 0;
+      margin: 10px 0 10px 0;
       & h2 {
         font-size: 1.5rem;
         margin: 0;
@@ -240,6 +244,7 @@
       & a {
         font-size: 0.8rem;
         margin: 0;
+        scale: 0.8;
       }
     }
   }
