@@ -5,7 +5,7 @@ const Project2 = () => {
   return (
     <div className="project-container">
       <div className="img-container">
-        <img src="./assets/img/soundspectrum.png" alt="soundspectrum" />
+        <img src="./assets/img/soundspectrum.jpg" alt="soundspectrum" />
       </div>
       <div className="project-title">
         <h2>Sound Spectrum</h2>
