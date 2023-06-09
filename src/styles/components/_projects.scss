@@ -7,24 +7,6 @@
   height: 55vh;
   margin: 20px auto;
   padding: 0;
-  animation: viewwidthAnimation 1s cubic-bezier(0.69, 1, 0.8, 0.7) 1s forwards;
-  @keyframes viewwidthAnimation {
-    0% {
-      width: 0vw;
-      height: 0vh;
-      opacity: 0;
-      border-radius: 50%;
-    }
-    75% {
-      border-radius: 50%;
-    }
-    100% {
-      width: 100vw;
-      height: 55vh;
-      opacity: 1;
-      border-radius: 0%;
-    }
-  }
   & .arrow {
     margin: 0 auto;
     border-radius: 50%;
@@ -53,24 +35,6 @@
     height: 55vh;
     margin: 20px auto;
     padding: 0;
-    animation: viewwidthAnimation 1s cubic-bezier(0.69, 1, 0.8, 0.7) 1s forwards;
-    @keyframes viewwidthAnimation {
-      0% {
-        width: 0vw;
-        height: 0vh;
-        opacity: 0;
-        border-radius: 50%;
-      }
-      75% {
-        border-radius: 50%;
-      }
-      100% {
-        width: 100vw;
-        height: 55vh;
-        opacity: 1;
-        border-radius: 0%;
-      }
-    }
     & .arrow {
       margin: 0 auto;
       border-radius: 50%;
@@ -100,24 +64,6 @@
     height: 55vh;
     margin: 0 auto 30px auto;
     padding: 0;
-    animation: viewwidthAnimation 1s cubic-bezier(0.69, 1, 0.8, 0.7) 1s forwards;
-    @keyframes viewwidthAnimation {
-      0% {
-        width: 0vw;
-        height: 0vh;
-        opacity: 0;
-        border-radius: 50%;
-      }
-      75% {
-        border-radius: 50%;
-      }
-      100% {
-        width: 100vw;
-        height: 55vh;
-        opacity: 1;
-        border-radius: 0%;
-      }
-    }
     & .arrow {
       margin: 0 auto;
       border-radius: 50%;

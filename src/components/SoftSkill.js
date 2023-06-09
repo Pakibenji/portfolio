@@ -4,7 +4,7 @@ const SoftSkill = () => {
   return (
     <div className="softskill-container">
       <img
-        src="../assets/img/benjamin.jpg"
+        src="../assets/img/benjamin.webp"
         alt="benjamin alcade"
         className="photo-benjamin"
       />
