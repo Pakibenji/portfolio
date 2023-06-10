@@ -5,7 +5,10 @@ const Project2 = () => {
   return (
     <div className="project-container">
       <div className="img-container">
-        <img src="./assets/img/soundspectrum.webp" alt="soundspectrum" />
+        <img
+          src="./assets/img/soundspectrum.webp"
+          alt="soundspectrum, projet final de la formation développeur de The Hacking project, SCSS REACT RAILS API "
+        />
       </div>
       <div className="project-title">
         <h2>Sound Spectrum</h2>

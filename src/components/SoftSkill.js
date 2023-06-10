@@ -5,7 +5,7 @@ const SoftSkill = () => {
     <div className="softskill-container">
       <img
         src="../assets/img/benjamin.webp"
-        alt="benjamin alcade"
+        alt="Benjamin Alcade, développeur web javascript, react, node.js"
         className="photo-benjamin"
       />
       <div className="titles">

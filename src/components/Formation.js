@@ -5,7 +5,7 @@ const Formation = () => {
     <div className="formation-container">
       <img
         src="./assets/img/thp-logo.webp"
-        alt="logo the hacking project"
+        alt="logo the hacking project, bootcamp développeur web"
         className="thp-logo"
       />
       <div className="titles">

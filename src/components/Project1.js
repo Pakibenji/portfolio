@@ -5,7 +5,10 @@ const Project1 = () => {
   return (
     <div className="project-container">
       <div className="img-container">
-        <img src="./assets/img/trox.webp" alt="trox" />
+        <img
+          src="./assets/img/trox.webp"
+          alt="trox, projet de fin de formation Fullstack, The hacking Project, RAILS, BOOTSTRAP, POSTGRESQL, HEROKU"
+        />
       </div>
       <div className="project-title">
         <h2>TROX</h2>

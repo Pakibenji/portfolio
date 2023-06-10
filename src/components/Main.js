@@ -26,7 +26,7 @@ const Main = () => {
           >
             <IconBrandGithub size={48} className="github" />
           </a>
-          <a href="mailto=alcade.benjamin@gmail.com">
+          <a href="mailto:alcade.benjamin@gmail.com">
             <IconBrandGmail size={48} className="mail" />
           </a>
         </div>
