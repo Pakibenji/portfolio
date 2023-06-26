@@ -1,4 +1,5 @@
 import { IconBrandGithub } from "@tabler/icons-react";
+import { IconExternalLink } from "@tabler/icons-react";
 import React from "react";
 
 const Project1 = () => {
@@ -44,9 +45,14 @@ const Project1 = () => {
       </div>
       <div className="project-link">
         <h4>Liens du projet</h4>
-        <a href="https://github.com/Pakibenji/trox">
-          <IconBrandGithub size={64} />
-        </a>
+        <div className="links-container">
+          <a href="https://troxx.fly.dev/">
+            <IconExternalLink size={64} />
+          </a>
+          <a href="https://github.com/Pakibenji/trox">
+            <IconBrandGithub size={64} />
+          </a>
+        </div>
       </div>
     </div>
   );

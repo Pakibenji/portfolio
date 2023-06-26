@@ -1,4 +1,5 @@
 import { IconBrandGithub } from "@tabler/icons-react";
+import { IconExternalLink } from "@tabler/icons-react";
 import React from "react";
 
 const Project2 = () => {
@@ -45,9 +46,14 @@ const Project2 = () => {
       </div>
       <div className="project-link">
         <h4>Liens du projet</h4>
-        <a href="https://github.com/Pakibenji/soundspectrum">
-          <IconBrandGithub size={64} />
-        </a>
+        <div className="links-container">
+          <a href="https://helpful-parfait-ba2e59.netlify.app/">
+            <IconExternalLink size={64} />
+          </a>
+          <a href="https://github.com/Pakibenji/soundspectrum">
+            <IconBrandGithub size={64} />
+          </a>
+        </div>
       </div>
     </div>
   );
