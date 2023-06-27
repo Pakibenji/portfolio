@@ -47,7 +47,7 @@ const Project2 = () => {
       <div className="project-link">
         <h4>Liens du projet</h4>
         <div className="links-container">
-          <a href="https://helpful-parfait-ba2e59.netlify.app/">
+          <a href="https://soundspectrum.netlify.app/">
             <IconExternalLink size={64} />
           </a>
           <a href="https://github.com/Pakibenji/soundspectrum">
